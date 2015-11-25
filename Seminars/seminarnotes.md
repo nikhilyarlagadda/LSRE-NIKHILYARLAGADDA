@@ -1,12 +1,50 @@
+
+Seminar 0: Home work
+
+1. What is large scale requirements engineering?
+According to author[1] the goal of the market driven process (MDRE) is to deliver the right product at the right time to the targeted market. The success of the product mainly depends upon the response of the market. There is need to assess the market situation continuously by researching market needs, collecting all possible feedback from the market and also by identifying the competitor’s status. This information helps in creating a constant flow of new requirements and ideas which lead to increase in size of the requirements for a product. As a result, the size and the complexity of the requirements database grow even faster than the size of the software product that is to be carried out. This situation is termed as large-scale requirements engineering or even large scale requirements engineering.	
+
+2. What are the challenges in large scale requirements engineering?
+	According to the authors[2],[3] the challenges faced in the large scale requirements engineering are mainly due to:
+•	More customer requirements
+•	Customer requirements management
+•	Limited formal interface to customer
+•	Technology change
+•	Distributed teams
+•	Traceability
+•	Scope change and creep
+•	Resource fluctuation
+
+3. What is the order of magnitude of the number of requirements we are discussing?
+	According to the authors[4] the order of magnitude of the number of requirements is divided into four categories based on the number of requirements (size) used by an organization for developing the software-intensive systems. The requirements are categorized as follows:
+•	Small-Scale Requirements Engineering		~10	   requirements
+•	Medium-Scale Requirements Engineering		~100	   requirements
+•	Large-Scale Requirements Engineering		~1,000	   requirements
+•	Very Large-Scale Requirements Engineering	~10,000  requirements
+
+References:
+[1]	K. Wnuk, “Understanding and Supporting Large-scale Requirements Management,” 2010.
+[2]	S. Konrad and M. Gall, “Requirements Engineering in the Development of Large-Scale Systems.”
+[3]	G. Sabaliauskaite, A. Loconsole, and E. Engström, “Challenges in Aligning Requirements Engineering and Verification in a Large-Scale Industrial Context.”
+[4]	B. Regnell, R. B. Svensson, and K. Wnuk, “Can we beat the complexity of very large-scale requirements engineering?,” Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics), vol. 5025 LNCS, pp. 123–128, 2008.
+
 Seminar 2: Homework
 
-•	Boston Matrix
+Boston Matrix
 It is known as B-Box, BCG Analysis, Growth-share matrix and the portfolio diagram. It helps to identify high-growth prospects by categorizing the company’s product according to the growth rate and market share i.e. (it helps the organization to decide how to allocate the resources for the product or service it sells depending upon the position of the product or service in the market).It is mainly used by the people responsible for brand marketing, product management, strategic management, and portfolio analysis.
-The Boston matrix includes two axis (market share and market growth) that split between high and low. It forms a 2x2 matrix which consists of 4 cells in which each cell is allocated to a category. Categories in the Boston matrix are 
+The Boston matrix[1] includes two axis (market share and market growth) that split between high and low. It forms a 2x2 matrix which consists of 4 cells in which each cell is allocated to a category. Categories in the Boston matrix are 
 •	Question marks
 •	Stars
 •	Cash cows
 •	Dogs
+
+Market Growth			Market Share			Category
+
+High			     		Low				        Question marks
+High			    		High			      	Stars
+Low				      	High			       	Cash Cows
+Low				      	Low				        Dogs
+
 Based on the market share and market growth, products are placed among the four categories. Most organizations expect that their product life cycle starts from the question mark. Some products also begin from the star category. As the market keeps on growing the product, also changes from the question mark to star and then to cash cow and it finally enters into the dogs category when the market for the product is declined.
 Question marks:
 It is also known as the problem child. It has a low market share in the fast growing market. The revenue obtained from this category is very less and it is not enough to keep up with the rapid growth which in turn needs to invest more money to gain the market share. This category consumes more money.
@@ -26,3 +64,5 @@ Disadvantages:
 •	It splits the businesses two parts namely high and low. But whereas businesses can be medium also. Thus the true nature of the business does not reflected.
 •	At times, dogs may help other businesses in gaining competitive advantage. They can earn even more than cash cows sometimes. 
 
+Reference:
+[1]	T. H. E. B. C. G. Matrix, “Management Accounting – Business Strategy,” vol. 6, no. January, pp. 5–7, 2005.
