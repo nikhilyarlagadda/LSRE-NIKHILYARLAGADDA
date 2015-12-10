@@ -35,12 +35,26 @@ Most basic information in order to be able to find information about user in e.g
   - <h5>Issue 35  (Extra Contents of Personal Profile) </h5>
     - <h5>Issue Description:</h5>The personal profile shall have the following text fields: address, zipcode, city, e-mail address, ICQ UIN, home, mobile, and office phone number, fax number, age, interests, "about me", link to personal homepage.
  - <h5> I assigned a duplicate label. I thought issue #32,#33,#35 were the duplicates of the issue #16.</h5> 
-- <h5>Issue 38 (Participator Privileges)</h5>
-  - <h5>Issue Description:</h5>It shall be possible to set different privileges for each participator in a course.
-  - <h5>Question:</h5>Who are the different participants of the course? On which hierarchy these privileges are assigned to the participators?
-- <h5>Issue 53 (Access to edit User database)</h5>
- - <h5>Issue Description:</h5>Course Administrators and System Administrators shall be able to add users to the system. Only System administrators shall be able to remove users from the system.
- - <h5>Question:</h5>In which way the system administrator needs to edit the user database either by internally (i.e. directly communicating with the back-end database) or externally (through an external application i.e. HTML pages which internally communicate with the database)?
+
 <h5> Week 48 </h5>
+<h5> Week 49 </h5>
+ - In this week, I have raised some questions regarding some issues, opened some issues and added requirements for the responses obtained in the week 47.
+ - <h5>Issue 80(Access to delete the message in course discussion forum)</h5>
+  - <h5>Issue Description</h5>Access should be provided to delete the message for the participator who wrote it. So, it enables the participator to remove the redundant messages.
+  - I added an enhancement label for this issue because it is an extra feature to the issue 23, along with the responsibility for this issue by assigned it to myself.
+ - <h5>Issue #56 (Access to View Course News)</h5>
+  - <h5>Issue Description</h5>Only participators of a course shall be able to view course news. The course news may contain sensitive information that is intended only for course participators.
+  - <h5>Question</h5>Does the system need to provide all the sensitive course news to the non-participants of that course also?
+  - My reason for raising this question is because there should be a differentiate between previliges among the members and non-members of the course for providing information. this question was raised for better understanding.
+ - <h5>Issue 38 (Participator Privileges)</h5>
+  - Assigning privileges based on the roles (position power) in a course #37
+  - My solution to the question raised by me on Week 46 is providing access based on their power in the course. 
+ - <h5>Issue 36(Add/Remove Participators to Course)</h5>
+  - <h5>Issue Description</h5>It shall be possible to add/Remove users as participants in a course.
+  - <h5>Question</h5>Which users have the power to remove the participants in a course either system administrator or course administrator? As mentioned in the issue #53, if  only system administrator has the power to remove the course participators, can we also extend the power to course administrators along with system administrators?
+ In this week, i have added labels to some issues as clarifications and enhancements. I find the dependicies for one issue, assigned myself as a responsible to some issues.
+
+
+
 
 
