@@ -38,21 +38,39 @@ Most basic information in order to be able to find information about user in e.g
 
 <h5> Week 48 </h5>
 <h5> Week 49 </h5>
- - In this week, I have raised some questions regarding some issues, opened some issues and added requirements for the responses obtained in the week 47.
- - <h5>Issue 80(Access to delete the message in course discussion forum)</h5>
-  - <h5>Issue Description</h5>Access should be provided to delete the message for the participator who wrote it. So, it enables the participator to remove the redundant messages.
-  - I added an enhancement label for this issue because it is an extra feature to the issue 23, along with the responsibility for this issue by assigned it to myself.
- - <h5>Issue #56 (Access to View Course News)</h5>
-  - <h5>Issue Description</h5>Only participators of a course shall be able to view course news. The course news may contain sensitive information that is intended only for course participators.
-  - <h5>Question</h5>Does the system need to provide all the sensitive course news to the non-participants of that course also?
-  - My reason for raising this question is because there should be a differentiate between previliges among the members and non-members of the course for providing information. this question was raised for better understanding.
- - <h5>Issue 38 (Participator Privileges)</h5>
-  - Assigning privileges based on the roles (position power) in a course #37
-  - My solution to the question raised by me on Week 46 is providing access based on their power in the course. 
- - <h5>Issue 36(Add/Remove Participators to Course)</h5>
-  - <h5>Issue Description</h5>It shall be possible to add/Remove users as participants in a course.
-  - <h5>Question</h5>Which users have the power to remove the participants in a course either system administrator or course administrator? As mentioned in the issue #53, if  only system administrator has the power to remove the course participators, can we also extend the power to course administrators along with system administrators?
- In this week, i have added labels to some issues as clarifications and enhancements. I find the dependicies for one issue, assigned myself as a responsible to some issues.
+  - In this week, I have raised some questions regarding some issues, opened some issues and added requirements for the responses obtained in the week 47.
+  -  <h5>Issue 80(Access to delete the message in course discussion forum)</h5>
+     -  <h5>Issue Description</h5>Access should be provided to delete the message for the participator who wrote it. So, it enables the participator to remove the redundant messages.
+     - I added an enhancement label for this issue because it is an extra feature to the issue 23, along with the responsibility for this issue by assigned it to myself.
+  -  <h5>Issue #56 (Access to View Course News)</h5>
+     - <h5>Issue Description</h5>Only participators of a course shall be able to view course news. The course news may contain sensitive information that is intended only for course participators.
+     - <h5>Question</h5>Does the system need to provide all the sensitive course news to the non-participants of that course also?
+     - My reason for raising this question is because there should be a differentiate between previliges among the members and non-members of the course for providing information. this question was raised for better understanding.
+  - <h5>Issue 38 (Participator Privileges)</h5>
+     - Assigning privileges based on the roles (position power) in a course #37
+     - My solution to the question raised by me on Week 46 is providing access based on their power in the course. 
+  - <h5>Issue 36(Add/Remove Participators to Course)</h5>
+     - <h5>Issue Description</h5>It shall be possible to add/Remove users as participants in a course.
+     - <h5>Question</h5>Which users have the power to remove the participants in a course either system administrator or course administrator? As mentioned in the issue #53, if  only system administrator has the power to remove the course participators, can we also extend the power to course administrators along with system administrators?
+  - In this week, i have added labels to some issues as clarifications and enhancements. I find the dependicies for one issue, assigned myself as a responsible to some issues.
+
+<h5>week 50</h5>
+
+  - <h5>Issue 102 (Activity Log)</h5>
+     - <h5>Question</h5>Through this option, all the participators of the system are able to view their activities they have done in the system.
+     - It is a feature which enables the participators to track down their activities.
+  - <h5>Issue 101 (Trash Box)</h5>
+     - <Question>There should be a trash box option in the system (like gmail). It contains all the deleted data (links/ course news....) for some period of time, where the administrators of the course and system can check what they have deleted. If they have deleted the data unexpectedly, they can retrieve the data if they feel it is important.
+     - I have labeled it as enhancement to the issue #50 and assigned this issue to myself.
+  - <h5>Issue 85 (Access to delete the message in course discussion form)</h5>
+     - <h5>Question</h5>Before deleting the messages/ links/files from the system, there should be a user-friendly message (like pop-up messages) notifying the users about the activities they are doing.
+     - <h5>Colleague Question</h5>Who is the user here?
+     - I answered to the question as The participators who are using the system.
+I also added an enhancement label to this issue with issue #50. I also assigned this issue .
+
+
+
+
 
 
 
