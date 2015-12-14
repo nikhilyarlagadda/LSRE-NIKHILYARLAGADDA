@@ -37,6 +37,11 @@ Most basic information in order to be able to find information about user in e.g
  - <h5> I assigned a duplicate label. I thought issue #32,#33,#35 were the duplicates of the issue #16.</h5> 
 
 <h5> Week 48 </h5>
+   - In this week, i got responses to some of the questions that i have posted.
+   - For some of the issues i got clarification for some issues.
+   - In previous week, i labeled some issues as a duplicate with issue #16. I got clarified that those issues are not the duplicates of #16 they provide better clarification regarding the issue #16.
+   - In the course discussion forum, we have disscussed about the prioritization techniques. i supported the prioritization techniques which doesnot need any experties and previous data.
+   
 <h5> Week 49 </h5>
   - In this week, I have raised some questions regarding some issues, opened some issues and added requirements for the responses obtained in the week 47.
   -  <h5>Issue 80(Access to delete the message in course discussion forum)</h5>
@@ -57,16 +62,21 @@ Most basic information in order to be able to find information about user in e.g
 <h5>week 50</h5>
 
   - <h5>Issue 102 (Activity Log)</h5>
-     - <h5>Question</h5>Through this option, all the participators of the system are able to view their activities they have done in the system.
+     - <h5>Description</h5>Through this option, all the participators of the system are able to view their activities they have done in the system.
      - It is a feature which enables the participators to track down their activities.
+     - I have create this issue and labeled it as new feature and assigned myself.
   - <h5>Issue 101 (Trash Box)</h5>
-     - <Question>There should be a trash box option in the system (like gmail). It contains all the deleted data (links/ course news....) for some period of time, where the administrators of the course and system can check what they have deleted. If they have deleted the data unexpectedly, they can retrieve the data if they feel it is important.
-     - I have labeled it as enhancement to the issue #50 and assigned this issue to myself.
+     - <h5>Description</h5> There should be a trash box option in the system (like gmail). It contains all the deleted data (links/ course news....) for some period of time, where the administrators of the course and system can check what they have deleted. If they have deleted the data unexpectedly, they can retrieve the data if they feel it is important.
+     - I have created this issue and labeled it as enhancement to the issue #50 and assigned this issue to myself.
   - <h5>Issue 85 (Access to delete the message in course discussion form)</h5>
-     - <h5>Question</h5>Before deleting the messages/ links/files from the system, there should be a user-friendly message (like pop-up messages) notifying the users about the activities they are doing.
-     - <h5>Colleague Question</h5>Who is the user here?
+     - <h5>Description</h5>Before deleting the messages/ links/files from the system, there should be a user-friendly message (like pop-up messages) notifying the users about the activities they are doing.
+     - Colleague Question Who is the user here?
      - I answered to the question as The participators who are using the system.
-I also added an enhancement label to this issue with issue #50. I also assigned this issue .
+ I created this issue and also added an enhancement label to this issue with issue #50. I also assigned this issue .
+  - <h5>Issue 112 (Notifications for messages)</h5>
+     - <h5>Description</h5>Notifications should be provided to the course participators whenever an activity takes place in the course discussion forum.
+     - I have assigned myself as a  reponsible for the issues #52,#23. These mainly focuses about course discussion forum, i taught of adding features to this area so i have created this issue which will be an additional feature to the course discussion forum. I labeled this iissue as a feature and assigned myself.
+  - By the end of this week i mainly focused on assigning myself to issues releted to same area and also created an issue which helps  improving this feature more.
 
 
 
