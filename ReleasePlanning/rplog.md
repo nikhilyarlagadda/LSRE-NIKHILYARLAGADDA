@@ -77,7 +77,15 @@ Most basic information in order to be able to find information about user in e.g
      - <h5>Description</h5>Notifications should be provided to the course participators whenever an activity takes place in the course discussion forum.
      - I have assigned myself as a  reponsible for the issues #52,#23. These mainly focuses about course discussion forum, i taught of adding features to this area so i have created this issue which will be an additional feature to the course discussion forum. I labeled this iissue as a feature and assigned myself.
   - By the end of this week i mainly focused on assigning myself to issues releted to same area and also created an issue which helps  improving this feature more.
-
+<h5>Work</h5>
+  - In this i described the different prioritization techniques that are used for the requirements prioritization in the discusiion forum. In this i mainly discussed mainly about the methods like Grouping,Top 10,100-Dollar Test, AHP,Ranking. I also suggested that ranking technique should be used for release planning as it requires individual priority list of stakeholders which does not lead to raise of conflicts among stakeholders. I also mentioned that if class members feel it as a complex technique as no of requirements are more i have suggested an alternative technique is Grouping.
+  - Along with the prioritization techniques, attributes of a project also play an important role during the prioritization of requirements.  Some of the  aspects/attributes that need be considered during the requirements prioritization are 
+Cost,
+Time,
+Risk,
+Importance, 
+Volatility,
+I also raised the question which attributes should be considered for the release planning
 
 
 
