@@ -82,6 +82,7 @@ Most basic information in order to be able to find information about user in e.g
   - Along with the prioritization techniques, attributes of a project also play an important role during the prioritization of requirements.  I have also mentioned some of the  aspects/attributes that need be considered during the requirements prioritization are Cost,Time,Risk,Importance, Volatility.I also raised the question which attributes should be considered for the release planning?.
   - i got response that With the possible exception of "Importance", these all focus on the cost side. Any attributes that will help you define the *value* of a feature?
   - i also clarified that it would be better to assign the issues related to the same area. So i assigned myself to the issue #51(Discussion forum message overview) that is related to the area course discussion forum.
+  - There is one more issue #59 (Access to Discussion Forum) related to the area i have chosen. I assigned this issue myself.
 
 
 
