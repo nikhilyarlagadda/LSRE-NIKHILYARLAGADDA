@@ -66,3 +66,25 @@ Disadvantages:
 
 Reference:
 [1]	T. H. E. B. C. G. Matrix, “Management Accounting – Business Strategy,” vol. 6, no. January, pp. 5–7, 2005.
+
+<h5>Home Work</h5>
+ -  What tools are available for requirements management?
+   <p>  Requirements management tools help the organizations in defining and documenting requirements by allowing them to store the requirements in a central location. It helps the team members to find the requirements what is to be developed and the customers access the requirements to check whether the requirements are specified properly or not. It also helps in the process of classification and prioritization of requirements.According to the authors [1], [2], [3] some of the tools used for the requirements management are as follows:</p>
+   -  Borland CaliberRM
+   -  Sophist Group CARE 3.2
+   -  Steeltrace Catalyze Enterprise
+   -  ViewSet PACE
+   -  Insoft Prosareq
+   -  IBM Rational RequisitePro
+   -  Igatech Systems RDT
+   -  RBC RMTrack
+   -  Serena RTM
+   -  SpeeDEV RM
+   -  Telelogic DOORS
+   -  Teledyne Brown XTie-RT
+   -  CASE Spec
+   -  Case Complete
+   -  Polarion Reqs
+
+
+
