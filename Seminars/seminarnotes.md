@@ -85,6 +85,23 @@ Reference:
    -  CASE Spec
    -  Case Complete
    -  Polarion Reqs
+   -  Acclaro DFSS
+   -  Aligned Elements
+   -  Avenqo PEP
+   -  Blueprint
+   -  Cameo Requirements+
+   -  Cognition Cockpit
+   -  Cradle
+   -  inteGREAT
+   -  IRqA
+   -  JUCMNav
+   -  Leap SE
+   -  Psoda 
+   -  QFDcapture
+
+   - [1]	J. M. Carrillo De Gea, J. Nicolás, J. L. Fernández Alemán, A. Toval, C. Ebert, and A. Vizcaíno, “Requirements 				engineering tools: Capabilities, survey and assessment,” Inf. Softw. Technol., vol. 54, no. 10, pp. 1142–1157, 2012.
+   - [2]	R. Sud and J. Arthur, “Requirements management tools: A quantitative assessment,” pp. 1–19, 2003.
+   - [3]	S. Heinonen, “Requirements Management Tool Support for Software Engineering in Collaboration,” 2006.
 
 
 
