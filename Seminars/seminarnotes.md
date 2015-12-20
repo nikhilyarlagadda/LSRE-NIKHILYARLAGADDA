@@ -70,8 +70,8 @@ Reference:
 <h5>Home Work</h5>
  -  What tools are available for requirements management?
    <p>  Requirements management tools help the organizations in defining and documenting requirements by allowing them to store the requirements in a central location. It helps the team members to find the requirements what is to be developed and the customers access the requirements to check whether the requirements are specified properly or not. It also helps in the process of classification and prioritization of requirements.According to the authors [1], [2], [3] some of the tools used for the requirements management are as follows:</p>
-   -  Borland CaliberRM
-   -  Sophist Group CARE 3.2
+   -  Borland CaliberRM 
+   -  Sophist Group CARE 3.2  
    -  Steeltrace Catalyze Enterprise
    -  ViewSet PACE
    -  Insoft Prosareq
@@ -98,7 +98,12 @@ Reference:
    -  Leap SE
    -  Psoda 
    -  QFDcapture
-
+   -  RaQuest
+   -  ReqMan
+   -  RMTrack
+   -  Rommana ALM
+   -  Spira Team
+   -  TopTeam Analyst
    - [1]	J. M. Carrillo De Gea, J. Nicolás, J. L. Fernández Alemán, A. Toval, C. Ebert, and A. Vizcaíno, “Requirements 				engineering tools: Capabilities, survey and assessment,” Inf. Softw. Technol., vol. 54, no. 10, pp. 1142–1157, 2012.
    - [2]	R. Sud and J. Arthur, “Requirements management tools: A quantitative assessment,” pp. 1–19, 2003.
    - [3]	S. Heinonen, “Requirements Management Tool Support for Software Engineering in Collaboration,” 2006.
