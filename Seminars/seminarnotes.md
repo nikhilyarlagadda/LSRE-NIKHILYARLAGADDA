@@ -28,6 +28,8 @@ References:
 [3]	G. Sabaliauskaite, A. Loconsole, and E. Engström, “Challenges in Aligning Requirements Engineering and Verification in a Large-Scale Industrial Context.”
 [4]	B. Regnell, R. B. Svensson, and K. Wnuk, “Can we beat the complexity of very large-scale requirements engineering?,” Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics), vol. 5025 LNCS, pp. 123–128, 2008.
 <h5>Seminar 1:Home work</h5>
+ -  What is Gap analysis?
+    -  It mainly helps in finding the gap between current state and the future desired state. It contains a list of characteristic factors (attributes, competencies, performance levels) of the present situation and a list of factors need to achieve the future objectives which help in identifying the gap that need to be fulfilled.
  - What are the tools available for continuous integration?
    - <p>It is a development practice in which the code integrated by the developers is checked by an automated build .It helps in identifying the problems early in the code. Some of the Tools available for the continuous integration are </p>
    - Jenkins
@@ -36,6 +38,7 @@ References:
    - Strider
    - Go
    - Integrity
+   
 
 Seminar 2: Homework
 
