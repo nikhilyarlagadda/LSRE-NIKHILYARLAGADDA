@@ -30,6 +30,9 @@ References:
 <h5>Seminar 1:Home work</h5>
  -  What is Gap analysis?
     -  It mainly helps in finding the gap between current state and the future desired state. It contains a list of characteristic factors (attributes, competencies, performance levels) of the present situation and a list of factors need to achieve the future objectives which help in identifying the gap that need to be fulfilled.
+ -  What is IVA analysis ?
+    -  It is defined as a technique in which the ongoing product status is compared with the predefined product stratagies and checks whether the product is in line or not by considering the limited resources such as cost,time, risk and knowledge[1].
+
  - What are the tools available for continuous integration?
    - <p>It is a development practice in which the code integrated by the developers is checked by an automated build .It helps in identifying the problems early in the code. Some of the Tools available for the continuous integration are </p>
    - Jenkins
@@ -38,7 +41,8 @@ References:
    - Strider
    - Go
    - Integrity
-   
+ - <h5>References </h5>
+    - [1]	T. Gorschek and A. M. Davis, “Requirements engineering: In search of the dependent variables,” Inf. Softw. Technol., vol. 50, no. 1–2, pp. 67–75, 2008.
 
 Seminar 2: Homework
 
