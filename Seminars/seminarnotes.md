@@ -53,11 +53,11 @@ References:
 •	Cash cows
 •	Dogs
 
-    <pre> Market Growth			Market Share			Category
-        High			     		Low		     Question marks
-        High			    		High			      Stars
-        Low				      	High			Cash Cows
-       Low				      	Low			      Dogs
+    <pre> Market Growth		               	Market Share			Category
+             High			     		Low		     Question marks
+             High			    		High			  Stars
+             Low				      	High			Cash Cows
+             Low				      	Low		           Dogs
       </pre>
      - Based on the market share and market growth, products are placed among the four categories. Most organizations expect that their product life cycle starts from the question mark. Some products also begin from the star category. As the market keeps on growing the product, also changes from the question mark to star and then to cash cow and it finally enters into the dogs category when the market for the product is declined.
      - Question marks:
@@ -110,11 +110,11 @@ Identifying the question marks with the potential to gain market share from all 
          - Launch application
          - It takes input from the requirements management process where the obtained list of requirements is prioritized and some are selected from the prioritized requirements. A release definition is prepared for the selected requirements and validated by different internal stakeholders and a business case is sent to the board for approval. Once approval is received the implementation process starts and the launch preparation package is delivered to the stakeholders.
        - As this framework also helps in identifying the stakeholders. Some of the stakeholders that are identified and mentioned in this framework are
-         - External Stakeholders
+        - External Stakeholders
            - Market
            - Partner companies
            - Customers
-         - Internal stakeholders
+        - Internal stakeholders
            - Development
            - Support
            - Service
