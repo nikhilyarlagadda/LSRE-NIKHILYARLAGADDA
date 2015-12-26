@@ -44,44 +44,84 @@ References:
  - <h5>References </h5>
     - [1]	T. Gorschek and A. M. Davis, “Requirements engineering: In search of the dependent variables,” Inf. Softw. Technol., vol. 50, no. 1–2, pp. 67–75, 2008.
 
-Seminar 2: Homework
-
-Boston Matrix
-It is known as B-Box, BCG Analysis, Growth-share matrix and the portfolio diagram. It helps to identify high-growth prospects by categorizing the company’s product according to the growth rate and market share i.e. (it helps the organization to decide how to allocate the resources for the product or service it sells depending upon the position of the product or service in the market).It is mainly used by the people responsible for brand marketing, product management, strategic management, and portfolio analysis.
-The Boston matrix[1] includes two axis (market share and market growth) that split between high and low. It forms a 2x2 matrix which consists of 4 cells in which each cell is allocated to a category. Categories in the Boston matrix are 
+<h5>Seminar 2: Homework</h5>
+   - what is Boston Matrix?
+      - It is known as B-Box, BCG Analysis, Growth-share matrix and the portfolio diagram. It helps to identify high-growth prospects by categorizing the company’s product according to the growth rate and market share i.e. (it helps the organization to decide how to allocate the resources for the product or service it sells depending upon the position of the product or service in the market).It is mainly used by the people responsible for brand marketing, product management, strategic management, and portfolio analysis.
+      - The Boston matrix[1] includes two axis (market share and market growth) that split between high and low. It forms a 2x2 matrix which consists of 4 cells in which each cell is allocated to a category. Categories in the Boston matrix are 
 •	Question marks
 •	Stars
 •	Cash cows
 •	Dogs
 
-Market Growth			Market Share			Category
-
-High			     		Low				        Question marks
-High			    		High			      	Stars
-Low				      	High			       	Cash Cows
-Low				      	Low				        Dogs
-
-Based on the market share and market growth, products are placed among the four categories. Most organizations expect that their product life cycle starts from the question mark. Some products also begin from the star category. As the market keeps on growing the product, also changes from the question mark to star and then to cash cow and it finally enters into the dogs category when the market for the product is declined.
-Question marks:
-It is also known as the problem child. It has a low market share in the fast growing market. The revenue obtained from this category is very less and it is not enough to keep up with the rapid growth which in turn needs to invest more money to gain the market share. This category consumes more money.
+    <pre> Market Growth			Market Share			Category
+        High			     		Low		     Question marks
+        High			    		High			      Stars
+        Low				      	High			Cash Cows
+       Low				      	Low			      Dogs
+      </pre>
+     - Based on the market share and market growth, products are placed among the four categories. Most organizations expect that their product life cycle starts from the question mark. Some products also begin from the star category. As the market keeps on growing the product, also changes from the question mark to star and then to cash cow and it finally enters into the dogs category when the market for the product is declined.
+     - Question marks:
+       - It is also known as the problem child. It has a low market share in the fast growing market. The revenue obtained from this category is very less and it is not enough to keep up with the rapid growth which in turn needs to invest more money to gain the market share. This category consumes more money.
 Identifying the question marks with the potential to gain market share from all of them are very difficult. Careful analysis should be taken during identifying the question marks and investment should be spent on these question marks which replaces the existing market in the future. These question marks with stable market share are moved into the star. The question marks without stable market share even after investing on them lead to the dogs.
-Stars: 
-It has high market growth and high market share. The revenue obtained in this almost equal or high than the invested amount. Products with highest market share are moved into the cash cows when the market reaches its maturity level. The remaining products that are not capable to build market share move into Dogs category.
-Cash cows: 
-These are the low growth products with high market share. Successful products in mature markets are known as cows. These products are managed to earn the profits. The earnings obtained in this category are more than the invested amount. These investments should be utilized either in star or in the question marks category which builds the question marks into leaders. 
-Dogs: 
-This category is considered as the end of the product life cycle where it can be terminated if market declines or continued based on the situation. It belongs to low market share and low market growth. The revenue obtained from these is very less and just enough to keep its low market share. According to the organizational perspective spending resources for this category is a waste they can be used either in the question marks or in the star. Management needs to judge whether to continue or withdraw the product in/from the market.
-
-Advantages:	
-•	Provides a base for the management to decide and prepare for future actions.
+     - Stars: 
+       - It has high market growth and high market share. The revenue obtained in this almost equal or high than the invested amount. Products with highest market share are moved into the cash cows when the market reaches its maturity level. The remaining products that are not capable to build market share move into Dogs category.
+     - Cash cows: 
+       - These are the low growth products with high market share. Successful products in mature markets are known as cows. These products are managed to earn the profits. The earnings obtained in this category are more than the invested amount. These investments should be utilized either in star or in the question marks category which builds the question marks into leaders. 
+     - Dogs: 
+       - This category is considered as the end of the product life cycle where it can be terminated if market declines or continued based on the situation. It belongs to low market share and low market growth. The revenue obtained from these is very less and just enough to keep its low market share. According to the organizational perspective spending resources for this category is a waste they can be used either in the question marks or in the star. Management needs to judge whether to continue or withdraw the product in/from the market.
+    - Advantages:	
+•	Provides a base for the management to decide and prepare for future actions.<br>
 •	It is very simple to use, as there are only two dimensions and four quadrants.
-
-Disadvantages:
-•	It splits the businesses two parts namely high and low. But whereas businesses can be medium also. Thus the true nature of the business does not reflected.
+    - Disadvantages:<br>
+•	It splits the businesses two parts namely high and low. But whereas businesses can be medium also. Thus the true nature of the business does not reflected.<br>
 •	At times, dogs may help other businesses in gaining competitive advantage. They can earn even more than cash cows sometimes. 
-
-Reference:
+   - <h5>Reference:</h5>
 [1]	T. H. E. B. C. G. Matrix, “Management Accounting – Business Strategy,” vol. 6, no. January, pp. 5–7, 2005.
+   - <h5>Articles</h5>
+     - <h5>Towards a Reference Framework for Software Product Management</h5>
+       - The authors of this article mainly focused on developing a reference framework which provides a structure for a body of knowledge for software product management. A clear explanation of how a software product management process is carried out entirely by an organization and the structure of the software product management is not provided clearly. The authors of this article considered this as a gap and developed a reference framework based on an overview of state-of-the-art literature and industrial case studies. This framework clearly explains the step by step process that is carried out by the product managers/organization during the software product management. It also helps in identifying the stakeholders for the company/product and their relation during software product management. 
+       - This reference framework divides the software product management into four process area mainly
+       	 - Portfolio management: It deals with the products in the product portfolio (no of products a company has).
+       	 - Product road mapping: It is used to identify the different releases of a product
+       	 - Requirements management: It deals with the content of each individual requirement.
+       	 - Product release planning: It deals with the set of requirements that are to be released.
+       - In the reference framework, these four processes are carried out as follows:
+       - Portfolio management process involves four tasks
+         - Partnering and contracting
+         - Market trend identification
+         - Product life cycle management
+         - Product line identification
+	 - The input to this process is available from the board, market and partner companies. These inputs help in making the decision about the development strategy and lifecycle. A software product line is identified in this process which serves as an input for product road mapping.
+       - Product road mapping process involves these tasks
+         - Theme identification
+         - Core asset identification
+         - Road map construction
+         - This process receives input as product lines from portfolio management. This helps in identifying the themes and core assets. This information is collected and mentioned in the road map. This roadmap also acts as an input to the requirements organization.
+       - Requirements management process involves these three tasks
+         - Requirements gathering
+         - Requirements identification
+         - Requirements organizing.
+         - In this process, input (requirements) obtained from different stakeholders are gathered and identified. Finally, the product requirements are grouped according to the product and core asset.
+       - Product release planning mainly involves these five tasks.
+         - Requirements prioritization
+         - Requirements selection
+         - Release definition
+         - Release verification
+         - Launch application
+         - It takes input from the requirements management process where the obtained list of requirements is prioritized and some are selected from the prioritized requirements. A release definition is prepared for the selected requirements and validated by different internal stakeholders and a business case is sent to the board for approval. Once approval is received the implementation process starts and the launch preparation package is delivered to the stakeholders.
+       - As this framework also helps in identifying the stakeholders. Some of the stakeholders that are identified and mentioned in this framework are
+         - External Stakeholders
+           - Market
+           - Partner companies
+           - Customers
+         - Internal stakeholders
+           - Development
+           - Support
+           - Service
+           - Research and innovation
+           - Sales and marketing
+           - Company board
+       - This article provides me a clear information and structure of the software product management. The internal processes that are carried out during the software product development and the tasks that are involved in the each process (Road mapping, release planning, requirements management, portfolio management) are clearly understood.
 
 <h5>Home Work</h5>
  -  What tools are available for requirements management?
