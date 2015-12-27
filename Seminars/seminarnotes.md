@@ -30,9 +30,10 @@ References:
 <h5>Seminar 1:Home work</h5>
  -  What is Gap analysis?
     -  It mainly helps in finding the gap between current state and the future desired state. It contains a list of characteristic factors (attributes, competencies, performance levels) of the present situation and a list of factors need to achieve the future objectives which help in identifying the gap that need to be fulfilled.
+ -  What is CVA analysis?
+    -It is a technique used to measure and grow relative market price.It helps how to measure the components of customer value (market-perceived quality and market-perceived price) and plots a map that shows how the quality offered by each competitor, in any given marketplace, compares to the price it charges. The map also shows the marketplace competitors and compares their quality/price positions.
  -  What is IVA analysis ?
     -  It is defined as a technique in which the ongoing product status is compared with the predefined product stratagies and checks whether the product is in line or not by considering the limited resources such as cost,time, risk and knowledge[1].
-
  - What are the tools available for continuous integration?
    - <p>It is a development practice in which the code integrated by the developers is checked by an automated build .It helps in identifying the problems early in the code. Some of the Tools available for the continuous integration are </p>
    - Jenkins
