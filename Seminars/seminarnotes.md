@@ -27,6 +27,7 @@ References:
 [2]	S. Konrad and M. Gall, “Requirements Engineering in the Development of Large-Scale Systems.”
 [3]	G. Sabaliauskaite, A. Loconsole, and E. Engström, “Challenges in Aligning Requirements Engineering and Verification in a Large-Scale Industrial Context.”
 [4]	B. Regnell, R. B. Svensson, and K. Wnuk, “Can we beat the complexity of very large-scale requirements engineering?,” Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics), vol. 5025 LNCS, pp. 123–128, 2008.
+</br>
 <h5>Seminar 1:Home work</h5>
  -  What is Gap analysis?
     -  It mainly helps in finding the gap between current state and the future desired state. It contains a list of characteristic factors (attributes, competencies, performance levels) of the present situation and a list of factors need to achieve the future objectives which help in identifying the gap that need to be fulfilled.
@@ -42,10 +43,21 @@ References:
    - Strider
    - Go
    - Integrity
+ - what is technical product management?
+   - In this management, technical product manager role is very important. Technical product manager is responsible for defining market requirements and packaging the features into product releases. The main responsibilities of the technical product manager are  
+     - Conducting technology assessments
+     - Analyzing the competitive landscape
+     - Maintaining the product portfolio roadmap
+     - Monitoring and incorporate industry innovations
+     - Writing product requirements and use scenarios
+     - Maintaining a status dashboard for all portfolio products
+
+
  - <h5>References </h5>
     - [1]	T. Gorschek and A. M. Davis, “Requirements engineering: In search of the dependent variables,” Inf. Softw. Technol., vol. 50, no. 1–2, pp. 67–75, 2008.
 
 <h5>Seminar 2: Homework</h5>
+
    - what is Boston Matrix?
       - It is known as B-Box, BCG Analysis, Growth-share matrix and the portfolio diagram. It helps to identify high-growth prospects by categorizing the company’s product according to the growth rate and market share i.e. (it helps the organization to decide how to allocate the resources for the product or service it sells depending upon the position of the product or service in the market).It is mainly used by the people responsible for brand marketing, product management, strategic management, and portfolio analysis.
       - The Boston matrix[1] includes two axis (market share and market growth) that split between high and low. It forms a 2x2 matrix which consists of 4 cells in which each cell is allocated to a category. Categories in the Boston matrix are 
