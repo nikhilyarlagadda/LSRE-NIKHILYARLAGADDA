@@ -90,53 +90,9 @@ Identifying the question marks with the potential to gain market share from all 
 •	At times, dogs may help other businesses in gaining competitive advantage. They can earn even more than cash cows sometimes. 
    - <h5>Reference:</h5>
 [1]	T. H. E. B. C. G. Matrix, “Management Accounting – Business Strategy,” vol. 6, no. January, pp. 5–7, 2005.
-   - <h5>Articles</h5>
-     - <h5>Towards a Reference Framework for Software Product Management</h5>
-       - The authors of this article mainly focused on developing a reference framework which provides a structure for a body of knowledge for software product management. A clear explanation of how a software product management process is carried out entirely by an organization and the structure of the software product management is not provided clearly. The authors of this article considered this as a gap and developed a reference framework based on an overview of state-of-the-art literature and industrial case studies. This framework clearly explains the step by step process that is carried out by the product managers/organization during the software product management. It also helps in identifying the stakeholders for the company/product and their relation during software product management. 
-       - This reference framework divides the software product management into four process area mainly
-       	 - Portfolio management: It deals with the products in the product portfolio (no of products a company has).
-       	 - Product road mapping: It is used to identify the different releases of a product
-       	 - Requirements management: It deals with the content of each individual requirement.
-       	 - Product release planning: It deals with the set of requirements that are to be released.
-       - In the reference framework, these four processes are carried out as follows:
-       - Portfolio management process involves four tasks
-         - Partnering and contracting
-         - Market trend identification
-         - Product life cycle management
-         - Product line identification
-	 - The input to this process is available from the board, market and partner companies. These inputs help in making the decision about the development strategy and lifecycle. A software product line is identified in this process which serves as an input for product road mapping.
-       - Product road mapping process involves these tasks
-         - Theme identification
-         - Core asset identification
-         - Road map construction
-         - This process receives input as product lines from portfolio management. This helps in identifying the themes and core assets. This information is collected and mentioned in the road map. This roadmap also acts as an input to the requirements organization.
-       - Requirements management process involves these three tasks
-         - Requirements gathering
-         - Requirements identification
-         - Requirements organizing.
-         - In this process, input (requirements) obtained from different stakeholders are gathered and identified. Finally, the product requirements are grouped according to the product and core asset.
-       - Product release planning mainly involves these five tasks.
-         - Requirements prioritization
-         - Requirements selection
-         - Release definition
-         - Release verification
-         - Launch application
-         - It takes input from the requirements management process where the obtained list of requirements is prioritized and some are selected from the prioritized requirements. A release definition is prepared for the selected requirements and validated by different internal stakeholders and a business case is sent to the board for approval. Once approval is received the implementation process starts and the launch preparation package is delivered to the stakeholders.
-       - As this framework also helps in identifying the stakeholders. Some of the stakeholders that are identified and mentioned in this framework are
-        - External Stakeholders
-           - Market
-           - Partner companies
-           - Customers
-        - Internal stakeholders
-           - Development
-           - Support
-           - Service
-           - Research and innovation
-           - Sales and marketing
-           - Company board
-       - This article provides me a clear information and structure of the software product management. The internal processes that are carried out during the software product development and the tasks that are involved in the each process (Road mapping, release planning, requirements management, portfolio management) are clearly understood.
 
-<h5>Home Work</h5>
+
+<h5>Seminar 4</h5>
  -  What tools are available for requirements management?
    <p>  Requirements management tools help the organizations in defining and documenting requirements by allowing them to store the requirements in a central location. It helps the team members to find the requirements what is to be developed and the customers access the requirements to check whether the requirements are specified properly or not. It also helps in the process of classification and prioritization of requirements.According to the authors [1], [2], [3] some of the tools used for the requirements management are as follows:</p>
    -  Borland CaliberRM 
@@ -193,6 +149,79 @@ Identifying the question marks with the potential to gain market share from all 
    - [1]	J. M. Carrillo De Gea, J. Nicolás, J. L. Fernández Alemán, A. Toval, C. Ebert, and A. Vizcaíno, “Requirements 				engineering tools: Capabilities, survey and assessment,” Inf. Softw. Technol., vol. 54, no. 10, pp. 1142–1157, 2012.
    - [2]	R. Sud and J. Arthur, “Requirements management tools: A quantitative assessment,” pp. 1–19, 2003.
    - [3]	S. Heinonen, “Requirements Management Tool Support for Software Engineering in Collaboration,” 2006.
+
+<h5>Articles</h5>
+  - <h5> Seminar</h5>
+     - <h5>Towards a Reference Framework for Software Product Management</h5>
+       - The authors of this article mainly focused on developing a reference framework which provides a structure for a body of knowledge for software product management. A clear explanation of how a software product management process is carried out entirely by an organization and the structure of the software product management is not provided clearly. The authors of this article considered this as a gap and developed a reference framework based on an overview of state-of-the-art literature and industrial case studies. This framework clearly explains the step by step process that is carried out by the product managers/organization during the software product management. It also helps in identifying the stakeholders for the company/product and their relation during software product management. 
+       - This reference framework divides the software product management into four process area mainly
+       	 - Portfolio management: It deals with the products in the product portfolio (no of products a company has).
+       	 - Product road mapping: It is used to identify the different releases of a product
+       	 - Requirements management: It deals with the content of each individual requirement.
+       	 - Product release planning: It deals with the set of requirements that are to be released.
+       - In the reference framework, these four processes are carried out as follows:
+       - Portfolio management process involves four tasks
+         - Partnering and contracting
+         - Market trend identification
+         - Product life cycle management
+         - Product line identification
+	 - The input to this process is available from the board, market and partner companies. These inputs help in making the decision about the development strategy and lifecycle. A software product line is identified in this process which serves as an input for product road mapping.
+       - Product road mapping process involves these tasks
+         - Theme identification
+         - Core asset identification
+         - Road map construction
+         - This process receives input as product lines from portfolio management. This helps in identifying the themes and core assets. This information is collected and mentioned in the road map. This roadmap also acts as an input to the requirements organization.
+       - Requirements management process involves these three tasks
+         - Requirements gathering
+         - Requirements identification
+         - Requirements organizing.
+         - In this process, input (requirements) obtained from different stakeholders are gathered and identified. Finally, the product requirements are grouped according to the product and core asset.
+       - Product release planning mainly involves these five tasks.
+         - Requirements prioritization
+         - Requirements selection
+         - Release definition
+         - Release verification
+         - Launch application
+         - It takes input from the requirements management process where the obtained list of requirements is prioritized and some are selected from the prioritized requirements. A release definition is prepared for the selected requirements and validated by different internal stakeholders and a business case is sent to the board for approval. Once approval is received the implementation process starts and the launch preparation package is delivered to the stakeholders.
+       - As this framework also helps in identifying the stakeholders. Some of the stakeholders that are identified and mentioned in this framework are
+        - External Stakeholders
+           - Market
+           - Partner companies
+           - Customers
+        - Internal stakeholders
+           - Development
+           - Support
+           - Service
+           - Research and innovation
+           - Sales and marketing
+           - Company board
+       - This article provides me a clear information and structure of the software product management. The internal processes that are carried out during the software product development and the tasks that are involved in the each process (Road mapping, release planning, requirements management, portfolio management) are clearly understood.
+  - <h5>An Industrial Survey of Requirements Interdependencies in Software Product Release Planning</h5>
+   - The authors of this paper mainly concentrated on identifying the nature and frequency of requirements interdependencies and their importance in software release planning. As the incremental development strategies become a common place in the industry, incremental planning gains both importance and interest. The task of finding an optimal selection of requirements for the next release of the software system is difficult as requirements may depend on each other in complex ways. The authors of this paper conducted an informal survey and identified six different planning parameters that need to be considered and satisfied for release planning they are
+     - Available resources
+     - Delivery time
+     - Requirements interdependencies
+     - Requirements priority
+     - System architecture and
+     - Dependencies to code base
+   - Requirements prioritization is an important task in the incremental planning. Because of the interdependencies between requirements, it is impossible or difficult to schedule the requirements based on priority. Requirement interdependencies play a critical role during release planning. The main aim of this article is to identify the nature and the frequency of the requirements interdependencies. For gaining knowledge about the requirements interdependencies, the authors of this paper conducted a survey among 5 companies. Among five cases, three of the companies come under market-driven where it has a mature product in the market. Remaining two cases come under bespoke, meaning that there was no released version of the product on the market and there was only one specific customer paying for the development. In these five cases, the requirements managers are requested to consider top twenty requirements from the repositories of their current projects. They are requested to prioritize the requirements without considering the interdependencies among each other and pairwise considerations are done for all the 20 requirements. There are no of possibilities for each pair combination. They are as follows
+     - No relation between the requirements. The research managers are asked to rate the level of certainty on the scale(Possibly, Probably, Positively) 
+     - The relation between the requirements is found. The relation between the requirements is identified using a classification schema and along with that level of uncertainty is mentioned.
+   - A preliminary set of interdependency types were created (Classification schema). It has six different types of interdependencies they are
+     - AND
+     - REQUIRES
+     - TEMPORAL
+     - CVALUE
+     - ICOST
+     - OR
+   - Functional interdependencies should have higher priority than the value related interdependencies. The priority order among the interdependencies types is as follows
+     - AND has the highest priority
+     - REQUIRES has the second priority
+     - TEMPORAL can be either functional related or value related. It can be either REQUIRES or ICOST. The priority order is next to the REQUIRES.
+     - ICOST and CVALUE come under the same priority. As both of them are value related dependencies. If a conflict arises between these two then a trade-off should be considered. The CVALUE interdependency type plays a major role in the release planning.
+     - OR comes under all the interdependency types and it has the least priority. 
+   - Finally, a data visualization approach is applied for managing the requirements interdependencies. In this approach, the requirements and their interdependencies are represented by using objects and arrows in a traditional way to draw important conclusions associated with release planning. This helps in identifying the flow of a process between the requirements. This paper also concentrates on identifying the requirement dependencies with less effort. First of all, singular requirements, i. e., requirements having no relationship with any other requirements, are easily identified which can be released in any increment. Later the requirements having relationships to many other requirements are further identified and released as early as possible. Finally, free clusters of requirements can be planned for any increment, as long as all involved requirements are scheduled for the same increment. Requirements that are having many dependencies between them should be scheduled for the same release in order to simplify the realization. 
+   - In order to support the release planning the concepts requirements coupling and release coupling are used. Requirements coupling is used to describe the complexity of the planning. Release coupling is used to specify the number of interdependencies between the partitions (releases). These two serve as an interdependency goodness measure in release planning. Finally, authors of this paper concluded that to minimize the efforts needed to identify and manage the requirements interdependencies it is important to find and refine the heuristics for the identification of singular requirements as well as highly dependent requirements and finally the free clusters.
 
 
 
