@@ -85,12 +85,19 @@ Most basic information in order to be able to find information about user in e.g
   - i am clarified that the aspects, i have mention in the course discussion forum comes under the category cost expect importance. I also understood that i have to focus on the attributes that define the value.
   - i also got clarified that it would be better to assign the issues related to the same area. So i assigned myself to the issue #51(Discussion forum message overview) that is related to the area course discussion forum.
   - There is one more issue #59 (Access to Discussion Forum) related to the area i have chosen. I assigned this issue myself.
-<h5> Week </h5>
-  - I assigned myself as a responsible for the issue #69 (Course Chatroom). I thought course chat room is similar to some extent as the course discussion forumn.
-  - I added issue #85(User-friendly messages) as an enhancement to the issue #80(Access to delete the message in course discussion form). It would be better if a notification is provided for the participator before the deletion of the message.
-  - I assigned myself to the issue #67(Reply to Message) as it is related to the course discussion forum. 
-  - I already assigned the label enhancement to this issue #101(Trash Box). I have also assigned a new label feature to this issue #101(Trash Box) as it is a new feature in the system which enables the user to retrieve the messages that are deleted.
-  - I changed the label of this issue #113(Unread Notifications for messages) from feature to enhancement. Initially i thought this would be a new feature to the system after that i realized it could be an enhancement to issue #23(Discussion Forum). The main aim of this issue #113 is to notify the participators of the course about the messages that are added in the course discussion forum and unread messages. I also added this as an enhancement to the issue #23(Discussion Forum).
+
+<h5> Week</h5>
+- <h5>Issue 69(Course Chatroom)</h5>
+  - I assigned myself as a responsible for the issue #69. I thought course chat room is similar to some extent as the course discussion forumn.
+- <h5>Issue 85(User-friendly messages)</h5> 
+  - I added issue #85 as an enhancement to the issue #80(Access to delete the message in course discussion form). It would be better if a notification is provided for the participator before the deletion of the message.
+- <h5>Issue 67(Reply to Message) </h5>
+  - I assigned myself to the issue #67 as it is related to the course discussion forum. 
+- <h5>Issue 101(Trash Box)</h5> 
+  - I already assigned the label enhancement to this issue #101. I have also assigned a new label feature to this issue #101 as it is a new feature in the system which enables the user to retrieve the messages that are deleted.
+- <h5>Issue 113(Unread Notifications for messages)</h5> 
+  - I changed the label of this issue #113 from feature to enhancement. Initially i thought this would be a new feature to the system after that i realized it could be an enhancement to issue #23(Discussion Forum). 
+  - The main aim of this issue #113 is to notify the participators of the course about the messages that are added in the course discussion forum and unread messages. I also added this as an enhancement to the issue #23.
 
 
 
