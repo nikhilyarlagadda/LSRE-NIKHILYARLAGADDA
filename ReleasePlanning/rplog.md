@@ -76,16 +76,21 @@ Most basic information in order to be able to find information about user in e.g
   - <h5>Issue 112 (Notifications for messages)</h5>
      - <h5>Description</h5>Notifications should be provided to the course participators whenever an activity takes place in the course discussion forum.
      - I have assigned myself as a  reponsible for the issues #52,#23. These mainly focuses about course discussion forum, i taught of adding features to this area so i have created this issue which will be an additional feature to the course discussion forum. I labeled this issue as a feature and assigned myself.
-  - By the end of this week i mainly focused on assigning myself to issues releted to same area(<h5>Course Discussion Forum</h5>) and also created an issue which helps  improving this feature more.
+  - By the end of this week i mainly focused on assigning myself to issues releted to same area(Course Discussion Forum) and also created an issue which helps  improving this feature more.
 <h5>Work</h5>
-  - I started assigning myself to the area <h5>Course Discussion Forum</h5>. Iam intersted in this and took the responsibility for this area.
+  - I started assigning myself to the area Course Discussion Forum. Iam intersted in this and took the responsibility for this area.
   - As a part of release planning, i suggested some of the prioritization techniques that are used for the requirements prioritization in the discusiion forum. In this i mainly discussed mainly about the methods like Grouping,Top 10,100-Dollar Test, AHP,Ranking. I also suggested that ranking technique should be used for release planning as it requires individual priority list of stakeholders which does not lead to raise of conflicts among stakeholders. I also mentioned that if class members feel it as a complex technique as no of requirements are more i have suggested an alternative technique is Grouping.
   - Along with the prioritization techniques, attributes of a project also play an important role during the prioritization of requirements.  I have also mentioned some of the  aspects/attributes that need be considered during the requirements prioritization are Cost,Time,Risk,Importance, Volatility.I also raised the question which attributes should be considered for the release planning?.
   - i got response as With the possible exception of "Importance", these all focus on the cost side. Any attributes that will help you define the *value* of a feature?
   - i am clarified that the aspects, i have mention in the course discussion forum comes under the category cost expect importance. I also understood that i have to focus on the attributes that define the value.
   - i also got clarified that it would be better to assign the issues related to the same area. So i assigned myself to the issue #51(Discussion forum message overview) that is related to the area course discussion forum.
   - There is one more issue #59 (Access to Discussion Forum) related to the area i have chosen. I assigned this issue myself.
-
+<h5> Week </h5>
+  - I assigned myself as a responsible for the issue #69 (Course Chatroom). I thought course chat room is similar to some extent as the course discussion forumn.
+  - I added issue #85(User-friendly messages) as an enhancement to the issue #80(Access to delete the message in course discussion form). It would be better if a notification is provided for the participator before the deletion of the message.
+  - I assigned myself to the issue #67(Reply to Message) as it is related to the course discussion forum. 
+  - I already assigned the label enhancement to this issue #101(Trash Box). I have also assigned a new label feature to this issue #101(Trash Box) as it is a new feature in the system which enables the user to retrieve the messages that are deleted.
+  - I changed the label of this issue #113(Unread Notifications for messages) from feature to enhancement. Initially i thought this would be a new feature to the system after that i realized it could be an enhancement to issue #23(Discussion Forum). The main aim of this issue #113 is to notify the participators of the course about the messages that are added in the course discussion forum and unread messages. I also added this as an enhancement to the issue #23(Discussion Forum).
 
 
 
