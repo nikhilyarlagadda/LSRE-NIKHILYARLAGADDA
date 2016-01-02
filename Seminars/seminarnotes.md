@@ -151,7 +151,7 @@ Identifying the question marks with the potential to gain market share from all 
    - [3]	S. Heinonen, “Requirements Management Tool Support for Software Engineering in Collaboration,” 2006.
 
 <h5>Articles</h5>
-  - <h5> Seminar</h5>
+  - <h5> Seminar 2</h5>
      - <h5>Towards a Reference Framework for Software Product Management</h5>
        - The authors of this article mainly focused on developing a reference framework which provides a structure for a body of knowledge for software product management. A clear explanation of how a software product management process is carried out entirely by an organization and the structure of the software product management is not provided clearly. The authors of this article considered this as a gap and developed a reference framework based on an overview of state-of-the-art literature and industrial case studies. This framework clearly explains the step by step process that is carried out by the product managers/organization during the software product management. It also helps in identifying the stakeholders for the company/product and their relation during software product management. 
        - This reference framework divides the software product management into four process area mainly
@@ -196,6 +196,7 @@ Identifying the question marks with the potential to gain market share from all 
            - Sales and marketing
            - Company board
        - This article provides me a clear information and structure of the software product management. The internal processes that are carried out during the software product development and the tasks that are involved in the each process (Road mapping, release planning, requirements management, portfolio management) are clearly understood.
+       
   - <h5>An Industrial Survey of Requirements Interdependencies in Software Product Release Planning</h5>
    - The authors of this paper mainly concentrated on identifying the nature and frequency of requirements interdependencies and their importance in software release planning. As the incremental development strategies become a common place in the industry, incremental planning gains both importance and interest. The task of finding an optimal selection of requirements for the next release of the software system is difficult as requirements may depend on each other in complex ways. The authors of this paper conducted an informal survey and identified six different planning parameters that need to be considered and satisfied for release planning they are
      - Available resources
@@ -222,6 +223,24 @@ Identifying the question marks with the potential to gain market share from all 
      - OR comes under all the interdependency types and it has the least priority. 
    - Finally, a data visualization approach is applied for managing the requirements interdependencies. In this approach, the requirements and their interdependencies are represented by using objects and arrows in a traditional way to draw important conclusions associated with release planning. This helps in identifying the flow of a process between the requirements. This paper also concentrates on identifying the requirement dependencies with less effort. First of all, singular requirements, i. e., requirements having no relationship with any other requirements, are easily identified which can be released in any increment. Later the requirements having relationships to many other requirements are further identified and released as early as possible. Finally, free clusters of requirements can be planned for any increment, as long as all involved requirements are scheduled for the same increment. Requirements that are having many dependencies between them should be scheduled for the same release in order to simplify the realization. 
    - In order to support the release planning the concepts requirements coupling and release coupling are used. Requirements coupling is used to describe the complexity of the planning. Release coupling is used to specify the number of interdependencies between the partitions (releases). These two serve as an interdependency goodness measure in release planning. Finally, authors of this paper concluded that to minimize the efforts needed to identify and manage the requirements interdependencies it is important to find and refine the heuristics for the identification of singular requirements as well as highly dependent requirements and finally the free clusters.
+  
+  - <h5>Seminar 3</h5>
+  - <h5>Obsolete Software Requirements</h5> 
+    - Software as a business is a demanding environment, where a growing number of users, rapid introduction of new technologies and fierce competition are inevitable. The major challenges in this environment are high volatility and quick evolution of requirements, requirements that often are more likely to become obsolete even before project completion.
+    - In MDRE, the pace of incoming requirements and requirements change is high. Changes in the requirements make them become obsolete and these obsolete requirements can dramatically extend the timeline of the project and also leads to increase in the cost of the project. Software companies need to identify which requirements are obsolete or outdated. Identification and handling of obsolete requirements are important as large volumes of degrading requirements threaten the effective requirements management. 
+    - Requirements management is an integral component of the requirements engineering. It mainly concentrates on managing the data created in the requirements elicitation and development phases. It integrates the data to the entire flow of the development life cycle. Any changes to the requirements should be managed effectively by the requirements manager during the product life cycle. The absence of requirements manager during this process lead to the cause of outdated requirements specifications as the information about changes to the original requirements is not fed back. Some of the reasons for the cause of obsolete software requirements are mentioned. They are 
+     - Scope creep
+     - Requirements creep
+     - Requirements leakage
+    - Along with these some of the reasons for obsolete requirements are postponing the implementation of planned functionality cause the requirements to become obsolete, longer it takes from defining requirements to implementation the higher the risk of change. The authors of this paper mainly concentrated on understanding the nature of obsolete requirements and their role in requirements management. They conducted a survey and investigated the phenomenon of obsolete requirements and effort required to handle the obsolete requirements in industrial practice. The authors of this paper found that 
+     - The obsolete software requirements create serious impact in industry practice.
+     - The type of requirement also plays an important role in becoming the requirement to obsolete requirement. Requirements related to laws, standards and given by experts were less likely to become obsolete. Inconsistent and ambiguous requirements, requirements from customers or internal developers were more likely to become obsolete
+     - Obsolete software requirements should be identified through manual activity.
+     - There is no specific process for dealing with requirements at the time of their identification. It completely depends upon the size of the project and the organization. They are stored in a requirements document or in a database with a tag as obsolete.
+     - LSRE and VLSRE are likely to be affected by the obsolete software requirements. As the requirements are more issues related to obsolete requirements are more. When related to MDRE and bespoke, the projects related to MDRE are likely to be affected by the obsolete requirements.
+     - These obsolete requirements should be handled in the requirements analysis and requirements validation process.
+    - The process of identifying, handling and removal of obsolete requirements is crucial. The identified requirements are stored either in databases or in documents. These requirements are not deleted because they can be used for the purposes reference and traceability, which help in minimizing the repeated work. 
+
 
 
 
