@@ -100,7 +100,17 @@ Most basic information in order to be able to find information about user in e.g
 - <h5>Issue 113(Unread Notifications for messages)</h5> 
   - I changed the label of this issue #113 from feature to enhancement. Initially i thought this would be a new feature to the system after that i realized it could be an enhancement to issue #23(Discussion Forum). 
   - The main aim of this issue #113 is to notify the participators of the course about the messages that are added in the course discussion forum and unread messages. I also added this as an enhancement to the issue #23.
+  - As a part of this release planning assignment initially 73 issues were created and given. Some of these issues were ambigious,uncertain and not properly structured. while some other requirements are clear. As part of product release process in LSRE it is very important to identify which requirements are provided with clear information and Questions were raised for the requirements which are not clearly described. 
+  - Till now i have  concentrated on clarifying the issues,identifying the dependencies and adding the requirements based on the dependencies.
+  - Requirements Abstraction model helps me a lot for this process, as it mainly contains four levels 
+   - Product level
+   - Feature level
+   - Functional level
+   - Component level
+  - This model helped me alot in understanding the level of each requirement given in the course. If it is in the product level then this requirement should have childs in the remaining three levels which is termed as sub requirements and depenedent requirements.
+  
 
+ 
 
 
 
