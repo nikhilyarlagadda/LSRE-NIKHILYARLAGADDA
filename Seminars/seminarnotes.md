@@ -190,7 +190,29 @@ When developing packaged software for a marketplace, the RE process should be ab
       - All these observed challenges were overcome in the REPEAT 2 model which involves hierarchical use case modelling and cost-value use case prioritization. Instead of depending on the expert judgement, REPEAT 2 model groups the requirements based on the use cases to which they are related, combined with a systematic cost-value prioritization approach.
  
   - <h5> Seminar 1</h5>
-   - <h5></h5>
+    - <h5>A Cost–Value Approach for Prioritizing Requirements</h5>
+      - Developing software systems that meet stakeholder’s needs and expectations is the ultimate goal of any software provider seeking a competitive edge. For achieving this stakeholder’s requirements: the features, functions, and the attributes should be managed effectively and accurately in the software system. In the real word software development, the number of incoming requirements will be more than the number of requirements selected for implementation. It is very difficult on deciding which requirements are really mattered and one increasingly demanded because of time and budget constraints. The managers still don’t have simple, effective and industrial proven techniques for prioritizing the requirements.  Considered this scenario as a gap and the authors of this paper developed an analytical tool for prioritizing the requirements based on a cost-value approach.
+      - Clear and unambiguous knowledge about the prioritization of requirements helps the companies to manage the projects effectively and efficiently. It can also help in 
+        - Make acceptable tradeoffs among conflicting goals such as cost, quality, and time-to-market.
+        - Allocating resources based on the projects based on the requirements importance
+      - When the time-to-market is very important, it is very to know how to rank the requirements which help in planning releases by indicating which functions are critical and which can be added over successive releases. 
+      - The cost-value approach is a process for prioritizing the software requirements.  Some of the properties that an approach should hold are as follows:
+        - It should be simple and fast at the same time it should generate accurate and trustworthy results.
+        - It also must hold the stakeholders satisfaction as both the ultimate goal and the guiding theme. Stakeholder’s satisfaction contains three factors namely quality, cost, and delivery.
+        - For a software system to succeed, quality must be maximized, cost minimized and time-to-delivery will be as short as possible. 
+      - In the cost-value approach, the candidate requirements are ranked by considering two dimensions they are 
+        - According to their value to customer and users 
+        - According to their estimated cost of implementation.
+      - These costs are calculated in terms of money by the developers. It is found that the prioritizing the requirements based on relative rather than the absolute assignments is faster, more accurate and more trustworthy. To achieve this, an Analytical hierarchy process is used.
+      - Analytical Hierarchy process compares requirements pairwise according to their relative value and cost. This pairwise comparison approach includes much redundancy and less sensitive to judgmental errors common to techniques using absolute assignments.
+There are five steps for prioritizing the requirements using cost-value approach. They are
+        - Candidate requirements should be carefully reviewed by requirement engineers to ensure that the requirements are unambiguous.
+        - Customers and users apply the AHP’s pairwise comparison to achieve the relative value of the candidate requirement.
+        - AHP’s pairwise comparison should be used by experienced software developers for finding the relative cost for implementing the candidate’s requirement.
+        - A software engineer uses AHP to calculate each candidate’s requirement’s relative value and implementation cost, and plot theses on a cost-value diagram.
+        - This diagram will act as a conceptual map for analyzing and discussing the candidate requirement by the stakeholders.
+      - The software managers prioritize the requirements and decide which will be implemented and also used for developing the strategies for release planning. This technique has been applied in two commercial telecommunications software development systems. These two projects clearly describe how well the requirements are prioritized based on the cost-value approach and the implementation of analytical hierarchy process for pair comparison and the process that is carried out in the cost-value approach is clearly described.The main problem with this approach, more requirements will also raise the problem of complexity, since the number of pairwise comparisons.
+ 
   - <h5> Seminar 2</h5>
      - <h5>Towards a Reference Framework for Software Product Management</h5>
        - The authors of this article mainly focused on developing a reference framework which provides a structure for a body of knowledge for software product management. A clear explanation of how a software product management process is carried out entirely by an organization and the structure of the software product management is not provided clearly. The authors of this article considered this as a gap and developed a reference framework based on an overview of state-of-the-art literature and industrial case studies. This framework clearly explains the step by step process that is carried out by the product managers/organization during the software product management. It also helps in identifying the stakeholders for the company/product and their relation during software product management. 
@@ -236,6 +258,32 @@ When developing packaged software for a marketplace, the RE process should be ab
            - Sales and marketing
            - Company board
        - This article provides me a clear information and structure of the software product management. The internal processes that are carried out during the software product development and the tasks that are involved in the each process (Road mapping, release planning, requirements management, portfolio management) are clearly understood.
+  - <h5> Exploring factors affecting decision outcome and lead time in large scale requirements engineering</h5>
+    - In MDRE process, the product has to be aligned with the targeted market needs to create a profitable software product. In MDRE projects, requirements keep on coming, deciding which requirements to be implemented is far from trivial. Customer needs keep evolving and cause changes to requirements. Analyzing and deciding upon these changes are critical for staying competitive in the market. 
+    - It is very difficult to select which change requirements should be accepeted. To effectively improve the RE decision-making more effort should be dedicated towards decision-making aspect. It is very important to identify the factors that affect the decision lead time and the decision outcome. Some of the characteristics of change requests that are identified 
+      - No of products: It is considered as the no of products affected by the decision. Termed as a proxy for decision complexity.
+      - Release number: the specific number of the release affected by the change request. The higher the release number, the later the release in the release cycle.
+      - Type of customer: a request is filed by an important external attribute or is internally generated.
+    - The decision lead time is defined as the duration between the moment a request was filed and the moment the change control board decision was made. The decision-making is an important part of requirements engineering and impacts requirement management. RE decision-makers have to deal with the difficulties such as ill-defined or competing goals and values, powers and politics also influence the decision-making process. Along with these some of the challenges in the requirements engineering decision-making process are 
+      - Uncertain environments
+      - Action and feedback loop
+      - Time stress
+      - Multiple Stakeholder situations
+      - Organizational goals
+      - Uncertain estimates
+      - Incompleteness of available information
+      - Maturity of the product
+    - The marketplace, the tools, methods, and technologies used by the organization also influence the decision-making process. As a result, the risk of making wrong decisions is more and consequences faced will be serious. To improve this process, understanding the nature of decisions made in the RE is important.
+    - The project decision makers consider both the requirements internally and externally generated. Change requests to these requirements are constantly submitted by the stakeholders. One feature can receive several change requests of various importance and scope from small changes to requests for complete feature removal. The change control system is used in order to capture, track and assess the impact of changes. CCB contains product and project managers, projects stakeholders and a champion who is responsible for leading the CCB meetings. The role of CCB is to decide upon adding or removing features according to the issued change requests. These change requests are high-level requests at the feature level regarding new functionality after a change request is filed. The request is put on the quality gateway model for analysis. Later an impact analysis is carried out which identifies both the requirements that are directly affected and dependent and the potential costs of change are assessed. After impact analysis, the request is submitted at the weekly CCB meeting, where change proposals are reviewed one by one which also involves discussions and clarifications. If the analysis performed by the group is not satisfied, extra information can be requested before the final decision is taken. Finally, if the request is accepted that change is implemented.
+    - The authors of this mainly concentrated on identifying the characteristics of a decision affect the decision lead time, decision outcome and decision lead time have any impact on the decision outcome. They conducted both survey and case study, the results were not same in both the cases.
+    - In both the cases, these are satisfied
+      - The lead time makes a decision increases when more products are influenced by this decision. 
+      - Change requests issued by important customers are more likely to be accepted.
+    - There is contradiction between the results obtained from survey and case study, for the release of product line has any impact on the lead time, the customer type has any impact on the lead time, no of products affected has any impact on the decision outcome, release number has any impact on the decision outcome and finally, thus lead time affects the decision outcome. These are not clear research should be in this area to get a clear idea regarding the decision-making process.
+    - Some of these points are observed during their investigation about the lead time and decision-making. They are
+      - In VLSRE, less complex decisions are more rejected. In smaller contexts, they are more likely accepted.
+      - In VLSRE, change of accepting a request is higher if that request affects a late release. In smaller these late requests are rejected.
+      - In VLSRE, decision-making is not faster for important customers. In smaller contexts important customers receive faster responses.
        
   - <h5>An Industrial Survey of Requirements Interdependencies in Software Product Release Planning</h5>
    - The authors of this paper mainly concentrated on identifying the nature and frequency of requirements interdependencies and their importance in software release planning. As the incremental development strategies become a common place in the industry, incremental planning gains both importance and interest. The task of finding an optimal selection of requirements for the next release of the software system is difficult as requirements may depend on each other in complex ways. The authors of this paper conducted an informal survey and identified six different planning parameters that need to be considered and satisfied for release planning they are
@@ -280,33 +328,9 @@ When developing packaged software for a marketplace, the RE process should be ab
      - LSRE and VLSRE are likely to be affected by the obsolete software requirements. As the requirements are more issues related to obsolete requirements are more. When related to MDRE and bespoke, the projects related to MDRE are likely to be affected by the obsolete requirements.
      - These obsolete requirements should be handled in the requirements analysis and requirements validation process.
     - The process of identifying, handling and removal of obsolete requirements is crucial. The identified requirements are stored either in databases or in documents. These requirements are not deleted because they can be used for the purposes reference and traceability, which help in minimizing the repeated work. 
-  - <h5> Seminar 3</h5>
-   - <h5> Exploring factors affecting decision outcome and lead time in large scale requirements engineering</h5>
-    - In MDRE process, the product has to be aligned with the targeted market needs to create a profitable software product. In MDRE projects, requirements keep on coming, deciding which requirements to be implemented is far from trivial. Customer needs keep evolving and cause changes to requirements. Analyzing and deciding upon these changes are critical for staying competitive in the market. 
-    - It is very difficult to select which change requirements should be accepeted. To effectively improve the RE decision-making more effort should be dedicated towards decision-making aspect. It is very important to identify the factors that affect the decision lead time and the decision outcome. Some of the characteristics of change requests that are identified 
-      - No of products: It is considered as the no of products affected by the decision. Termed as a proxy for decision complexity.
-      - Release number: the specific number of the release affected by the change request. The higher the release number, the later the release in the release cycle.
-      - Type of customer: a request is filed by an important external attribute or is internally generated.
-    - The decision lead time is defined as the duration between the moment a request was filed and the moment the change control board decision was made. The decision-making is an important part of requirements engineering and impacts requirement management. RE decision-makers have to deal with the difficulties such as ill-defined or competing goals and values, powers and politics also influence the decision-making process. Along with these some of the challenges in the requirements engineering decision-making process are 
-      - Uncertain environments
-      - Action and feedback loop
-      - Time stress
-      - Multiple Stakeholder situations
-      - Organizational goals
-      - Uncertain estimates
-      - Incompleteness of available information
-      - Maturity of the product
-    - The marketplace, the tools, methods, and technologies used by the organization also influence the decision-making process. As a result, the risk of making wrong decisions is more and consequences faced will be serious. To improve this process, understanding the nature of decisions made in the RE is important.
-    - The project decision makers consider both the requirements internally and externally generated. Change requests to these requirements are constantly submitted by the stakeholders. One feature can receive several change requests of various importance and scope from small changes to requests for complete feature removal. The change control system is used in order to capture, track and assess the impact of changes. CCB contains product and project managers, projects stakeholders and a champion who is responsible for leading the CCB meetings. The role of CCB is to decide upon adding or removing features according to the issued change requests. These change requests are high-level requests at the feature level regarding new functionality after a change request is filed. The request is put on the quality gateway model for analysis. Later an impact analysis is carried out which identifies both the requirements that are directly affected and dependent and the potential costs of change are assessed. After impact analysis, the request is submitted at the weekly CCB meeting, where change proposals are reviewed one by one which also involves discussions and clarifications. If the analysis performed by the group is not satisfied, extra information can be requested before the final decision is taken. Finally, if the request is accepted that change is implemented.
-    - The authors of this mainly concentrated on identifying the characteristics of a decision affect the decision lead time, decision outcome and decision lead time have any impact on the decision outcome. They conducted both survey and case study, the results were not same in both the cases.
-    - In both the cases, these are satisfied
-      - The lead time makes a decision increases when more products are influenced by this decision. 
-      - Change requests issued by important customers are more likely to be accepted.
-    - There is contradiction between the results obtained from survey and case study, for the release of product line has any impact on the lead time, the customer type has any impact on the lead time, no of products affected has any impact on the decision outcome, release number has any impact on the decision outcome and finally, thus lead time affects the decision outcome. These are not clear research should be in this area to get a clear idea regarding the decision-making process.
-    - Some of these points are observed during their investigation about the lead time and decision-making. They are
-      - In VLSRE, less complex decisions are more rejected. In smaller contexts, they are more likely accepted.
-      - In VLSRE, change of accepting a request is higher if that request affects a late release. In smaller these late requests are rejected.
-      - In VLSRE, decision-making is not faster for important customers. In smaller contexts important customers receive faster responses.
+   
+  - <h5> Seminar 4</h5>
+
 
 
 
