@@ -109,8 +109,25 @@ Most basic information in order to be able to find information about user in e.g
    - Component level
   - This model helped me alot in understanding the level of each requirement given in the course. If it is in the product level then this requirement should have childs in the remaining three levels which is termed as sub requirements and depenedent requirements.
  
-  - A group meeting was conducted for discussing about the techniques that should be used for the prioritization of requirements and the factors that should be considered during prioritization. Along with the prioritization road mapping of the product is also done in the presence of the team members. This road map contains a total of 6 milestones, in which the development life cycle of the entire product is completed.
-  - For prioritizing the requirements the technique that we opt is grouping. In which we used MoSCoW technique 
+  - A group meeting was conducted for discussing about the techniques that should be used for the prioritization of requirements and the factors that should be considered during prioritization. Along with the prioritization, road mapping of the product is also done in the presence of the team members. This road map contains a total of 6 milestones, in which these requirements are assigned to these milestones and along with that the development life cycle of the entire product is completed.
+ 
+  - For prioritizing the requirements the technique that we opt is grouping. In which we used MoSCoW technique.
+  - MoSCoW technique mainly concentrates on delivering the greatest and most immediate business benefits early.In this technique the requirements are classified into four categories They are 
+    - Must have: these requirements are critical to the current delivery in order for it to be a success. Even one requirement of this category is not included then the project leads to the failure.
+    - Should have: These requirements are important but not necessary for delivery in the current release. These are as important as must but not that much critical as must.
+    - Could have: These requirements are desirable but not necessary, and could improve user experience or customer satisfaction for little development cost. These requirements are considered when the time and resources permit.
+    - Won't have:These requirements are least critical or not appropriate at the time. These requirements are not considered in the delivery and they are either dropped or reconsidered in the next release.
+  - All these requirements are prioritized using MoSCoW technique using customer value as a factor among all the milestones.We assumed time and resources are available for doing all the requirements in the milestones.
+  - The goal of milestone 1 is "Early version, get the bare minimums up and running so that teachers can at least keep students informed about a course." Among all the requirements the basic requirements which are mainly necessary for delivery the goal of this mile stone are considered in presence of all th team members. A total of 13 requirements come under this milestone. Again among these 13 requirements based on the customer value prioritized using MoSCoW. 
+  - <pre> Must Should Could Wont
+          8      2     3    0       </pre>
+  - The goal of milestone 2 is "The most important features are available, but perhaps not with full functionality". A total of 32 requirements were selcted based on the goal of the milestone. Among these using MoSCoW and customer value the requirements are prioritized.
+  - <pre> Must Should Could Wont
+          10    14      7    1   </pre>
+  - The goal of milestone 3 is "Full functionality for the most important features. All features at least partially implemented". Depending upon this goal atotal of 38  requirements come under this. 
+- <pre> Must Should Could Wont
+          11   14    12    1 </pre>
+-
   
   
 
