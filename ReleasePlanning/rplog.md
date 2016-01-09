@@ -100,6 +100,8 @@ Most basic information in order to be able to find information about user in e.g
 - <h5>Issue 113(Unread Notifications for messages)</h5> 
   - I changed the label of this issue #113 from feature to enhancement. Initially i thought this would be a new feature to the system after that i realized it could be an enhancement to issue #23(Discussion Forum). 
   - The main aim of this issue #113 is to notify the participators of the course about the messages that are added in the course discussion forum and unread messages. I also added this as an enhancement to the issue #23.
+- <h5>Issue 101(Trash Box)</h5>
+  - I added this issue as an enhancement to the Issue 80(Access to delete the message in course discussion form ) . THis will act as a source for the participants to retrieve the mesages thata rae deleted by mistake from the course discussion forumn or from the chat box.
   - As a part of this release planning assignment initially 73 issues were created and given. Some of these issues were ambigious,uncertain and not properly structured. while some other requirements are clear. As part of product release process in LSRE it is very important to identify which requirements are provided with clear information and Questions were raised for the requirements which are not clearly described. 
   - Till now i have  concentrated on clarifying the issues,identifying the dependencies and adding the requirements based on the dependencies.
   - Requirements Abstraction model helps me a lot for this process, as it mainly contains four levels 
@@ -117,6 +119,7 @@ Most basic information in order to be able to find information about user in e.g
     - Should have: These requirements are important but not necessary for delivery in the current release. These are as important as must but not that much critical as must.
     - Could have: These requirements are desirable but not necessary, and could improve user experience or customer satisfaction for little development cost. These requirements are considered when the time and resources permit.
     - Won't have:These requirements are least critical or not appropriate at the time. These requirements are not considered in the delivery and they are either dropped or reconsidered in the next release.
+    
   - All these requirements are prioritized using MoSCoW technique using customer value as a factor among all the milestones.We assumed time and resources are available for doing all the requirements in the milestones.
   - The goal of milestone 1 is "Early version, get the bare minimums up and running so that teachers can at least keep students informed about a course." Among all the requirements the basic requirements which are mainly necessary for delivery the goal of this mile stone are considered in presence of all th team members. A total of 13 requirements come under this milestone. Again among these 13 requirements based on the customer value prioritized using MoSCoW. 
   - <pre> Must Should Could Wont
@@ -125,9 +128,31 @@ Most basic information in order to be able to find information about user in e.g
   - <pre> Must Should Could Wont
           10    14      7    1   </pre>
   - The goal of milestone 3 is "Full functionality for the most important features. All features at least partially implemented". Depending upon this goal atotal of 38  requirements come under this. 
-- <pre> Must Should Could Wont
+  - <pre> Must Should Could Wont
           11   14    12    1 </pre>
--
+  - The goal of milestone 4 is " All functionality implemented". Based on this goal a total of 13 requirements come under this category.
+  - <pre> Must Should Could Wont
+          7     5        1    0 </pre>
+  - The goal of milestone 5 is " Bugs addressed, most important feedback from earlier releases taken into account.". Based on this goal a total of 3 requirements come under this category.
+  - <pre> Must Should Could Wont
+            3     0      0    0 </pre>
+  - The redundant messages are not considered again during the selection of requirements in milestones. Among all the redundant requirements, one requirement is considered which refers all these redundant requirements. The requirements that i have assigned and taken responsibilty are assigned to the milestones.
+  - <pre> All these are assigned to milestone 0.5
+    - Issue 23 (Discussion Forum) 
+    - Issue 52 (View/add messages)
+    - Issue 59 (Access to Discussion Forum)
+    - Issue 67 (Reply to Message)
+    - Issue 69 (Course Chatroom)
+    - Issue 101 (Trash Box) </pre>
+  - <pre> All these are assigned to milestone 0.8
+    - Issue 51 (Discussion Forum message overview) 
+    - Issue 80 (Access to delete the message in course discussion form)
+    - Issue 85 (User-friendly messages)
+    -  </pre>
+  - <pre> All these are assigned to milestone 0.9
+    - Issue 102 (Activity Log) 
+    - Issue 113 (Unread Notifications for messages)
+    -  </pre>
   
   
 
