@@ -151,6 +151,46 @@ Identifying the question marks with the potential to gain market share from all 
    - [3]	S. Heinonen, “Requirements Management Tool Support for Software Engineering in Collaboration,” 2006.
 
 <h5>Articles</h5>
+  - <h5> Seminar 0</h5>
+    - <h5> A Market-Driven Requirements Engineering Process: Results from an Industrial Process Improvement Programme</h5>
+      - The authors of this paper describe a specific industrial RE process for packaged software, called REPEAT. 
+When developing packaged software for a marketplace, the RE process should be able to come up with requirements based on the foreseen end-user needs and select a set of requirements resulting in a software product which can compete on the market. REPEAT model can be used, for managing the continuous requirements.
+      - REPEAT is a RE process that manages requirements throughout a whole release cycle. This model mainly concentrated on the RE activities such as elicitation, documentation, and validation. It also focuses on the requirements selection and release planning. The actors involved in the REPEAT model are:
+        - Requirements Management Group (RQMG): mainly responsible for the requirements management and change management.
+        - Issuer: mainly responsible for creating an issue based on the market needs and user demands.
+        - Customers and users: responsible for providing input and feedback to a user
+        - Requirements team: mainly responsible for analyzing and specifying a set of requirements.
+        - Construction team: responsible for designing and implementing a set of requirements.
+        - Test team: responsible for verifying the set of requirements.
+        - Expert: responsible for identifying the cost and impact for the requirement.
+        - Requirements Database (RQDB): a place where all the requirements are stored.
+      - As in the MDRE process, a continuous flow of requirements is received. These received requirements are stored in the RQDB with a unique identity for each requirement. Each unique requirement has a life cycle progressing through several states. The RQMG group along with the support of experts is responsible for deciding on requirement state transitions. The states are
+        - New: the requirement is issued and priority is given.
+        - Assigned: requirement is assigned to an expert for classification
+        - Classified: rough estimates of cost and impact are performed.
+        - Selected: requirements selected for implementation.
+        - Rejected: .requirements are rejected
+        - Applied: requirements are implemented and verified.
+      - REPEAT is instantiated for each release, and each process instance has a fixed duration of 14 months. A new product is released after every six months. REPEAT instance composes of five different phases, separated by milestones at predefined dates.  The phases are:
+      - Elicitation Phase: 
+        - It involves two activities collection and classification. The collection of requirements is done by an issuer and entered into the database along with the initial priority value. The RQMG group checks whether the requirements are clear or not. If requirements are clear then it is assigned to an expert where the cost and impact analysis is done for the requirement. Once the cost, impact, and priority values is assigned then requirement enters the classified state.
+      - Selection phase:
+        - This phase mainly concentrated on
+          - Which requirements to be implemented in the current release 
+          - Detailed information for selected requirement
+          - Validate the requirement document
+        - The output of this phase is a requirements document which includes a list of the selected requirements, detailed specification of all the selected requirements and non-selected requirements. The effort estimations and detailed specification for the selected requirements are done by the requirements group. The sorting of selected requirements in priority order is achieved by the requirements team and RQMG. After the completion of a Requirements document, it is validated before it is placed in the specification baseline.
+      - Change management, Construction, Verification, and Conclusion: 
+        - During change management, the RQMG takes decisions on changing the requirements caused by new incoming requirements. If the change of a requirement is approved then it is added to the selected list with a priority value. Feedback is given to the issuer on the decisions taken to the change request. Construction involves designing and implementation process along with unit testing. In the verification process, implemented requirements from the selected list are verified against the requirements document.  The conclusion phase involves the metric collection and a final report is documented which involves all the lessons learned from the REPEAT.
+      - Some of the challenges that are faced in the REPEAT process are 
+        - Overload control: As the requirements are increasing, the number of classified requirements in RQDB is increasing for every release which leads to overload of RQDB.
+        - Connecting fragments: Requirement entities are not related to each other. There is a need to identify the requirements dependencies which is an important factor during the prioritization process.  
+        - Bridging the chasm between elicitation and selection: the requirements fragments are described at very different levels of abstraction and classification gets difficult.
+        - Long term product strategy for a diversity of market segments: the need of promoting activities related to the existing long-term product strategy and prioritization in relation to a range of market segments.
+      - All these observed challenges were overcome in the REPEAT 2 model which involves hierarchical use case modelling and cost-value use case prioritization. Instead of depending on the expert judgement, REPEAT 2 model groups the requirements based on the use cases to which they are related, combined with a systematic cost-value prioritization approach.
+ 
+  - <h5> Seminar 1</h5>
+   - <h5></h5>
   - <h5> Seminar 2</h5>
      - <h5>Towards a Reference Framework for Software Product Management</h5>
        - The authors of this article mainly focused on developing a reference framework which provides a structure for a body of knowledge for software product management. A clear explanation of how a software product management process is carried out entirely by an organization and the structure of the software product management is not provided clearly. The authors of this article considered this as a gap and developed a reference framework based on an overview of state-of-the-art literature and industrial case studies. This framework clearly explains the step by step process that is carried out by the product managers/organization during the software product management. It also helps in identifying the stakeholders for the company/product and their relation during software product management. 
@@ -240,6 +280,33 @@ Identifying the question marks with the potential to gain market share from all 
      - LSRE and VLSRE are likely to be affected by the obsolete software requirements. As the requirements are more issues related to obsolete requirements are more. When related to MDRE and bespoke, the projects related to MDRE are likely to be affected by the obsolete requirements.
      - These obsolete requirements should be handled in the requirements analysis and requirements validation process.
     - The process of identifying, handling and removal of obsolete requirements is crucial. The identified requirements are stored either in databases or in documents. These requirements are not deleted because they can be used for the purposes reference and traceability, which help in minimizing the repeated work. 
+  - <h5> Seminar 3</h5>
+   - <h5> Exploring factors affecting decision outcome and lead time in large scale requirements engineering</h5>
+    - In MDRE process, the product has to be aligned with the targeted market needs to create a profitable software product. In MDRE projects, requirements keep on coming, deciding which requirements to be implemented is far from trivial. Customer needs keep evolving and cause changes to requirements. Analyzing and deciding upon these changes are critical for staying competitive in the market. 
+    - It is very difficult to select which change requirements should be accepeted. To effectively improve the RE decision-making more effort should be dedicated towards decision-making aspect. It is very important to identify the factors that affect the decision lead time and the decision outcome. Some of the characteristics of change requests that are identified 
+      - No of products: It is considered as the no of products affected by the decision. Termed as a proxy for decision complexity.
+      - Release number: the specific number of the release affected by the change request. The higher the release number, the later the release in the release cycle.
+      - Type of customer: a request is filed by an important external attribute or is internally generated.
+    - The decision lead time is defined as the duration between the moment a request was filed and the moment the change control board decision was made. The decision-making is an important part of requirements engineering and impacts requirement management. RE decision-makers have to deal with the difficulties such as ill-defined or competing goals and values, powers and politics also influence the decision-making process. Along with these some of the challenges in the requirements engineering decision-making process are 
+      - Uncertain environments
+      - Action and feedback loop
+      - Time stress
+      - Multiple Stakeholder situations
+      - Organizational goals
+      - Uncertain estimates
+      - Incompleteness of available information
+      - Maturity of the product
+    - The marketplace, the tools, methods, and technologies used by the organization also influence the decision-making process. As a result, the risk of making wrong decisions is more and consequences faced will be serious. To improve this process, understanding the nature of decisions made in the RE is important.
+    - The project decision makers consider both the requirements internally and externally generated. Change requests to these requirements are constantly submitted by the stakeholders. One feature can receive several change requests of various importance and scope from small changes to requests for complete feature removal. The change control system is used in order to capture, track and assess the impact of changes. CCB contains product and project managers, projects stakeholders and a champion who is responsible for leading the CCB meetings. The role of CCB is to decide upon adding or removing features according to the issued change requests. These change requests are high-level requests at the feature level regarding new functionality after a change request is filed. The request is put on the quality gateway model for analysis. Later an impact analysis is carried out which identifies both the requirements that are directly affected and dependent and the potential costs of change are assessed. After impact analysis, the request is submitted at the weekly CCB meeting, where change proposals are reviewed one by one which also involves discussions and clarifications. If the analysis performed by the group is not satisfied, extra information can be requested before the final decision is taken. Finally, if the request is accepted that change is implemented.
+    - The authors of this mainly concentrated on identifying the characteristics of a decision affect the decision lead time, decision outcome and decision lead time have any impact on the decision outcome. They conducted both survey and case study, the results were not same in both the cases.
+    - In both the cases, these are satisfied
+      - The lead time makes a decision increases when more products are influenced by this decision. 
+      - Change requests issued by important customers are more likely to be accepted.
+    - There is contradiction between the results obtained from survey and case study, for the release of product line has any impact on the lead time, the customer type has any impact on the lead time, no of products affected has any impact on the decision outcome, release number has any impact on the decision outcome and finally, thus lead time affects the decision outcome. These are not clear research should be in this area to get a clear idea regarding the decision-making process.
+    - Some of these points are observed during their investigation about the lead time and decision-making. They are
+      - In VLSRE, less complex decisions are more rejected. In smaller contexts, they are more likely accepted.
+      - In VLSRE, change of accepting a request is higher if that request affects a late release. In smaller these late requests are rejected.
+      - In VLSRE, decision-making is not faster for important customers. In smaller contexts important customers receive faster responses.
 
 
 
