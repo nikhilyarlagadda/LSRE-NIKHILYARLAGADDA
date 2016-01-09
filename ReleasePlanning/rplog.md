@@ -137,22 +137,20 @@ Most basic information in order to be able to find information about user in e.g
   - <pre> Must Should Could Wont
             3     0      0    0 </pre>
   - The redundant messages are not considered again during the selection of requirements in milestones. Among all the redundant requirements, one requirement is considered which refers all these redundant requirements. The requirements that i have assigned and taken responsibilty are assigned to the milestones.
-  - <pre> All these are assigned to milestone 0.5
+  - <h5>All these are assigned to milestone 0.5</h5>
     - Issue 23 (Discussion Forum) 
     - Issue 52 (View/add messages)
     - Issue 59 (Access to Discussion Forum)
     - Issue 67 (Reply to Message)
     - Issue 69 (Course Chatroom)
-    - Issue 101 (Trash Box) </pre>
-  - <pre> All these are assigned to milestone 0.8
+    - Issue 101 (Trash Box)</pre>
+  - <h5> All these are assigned to milestone 0.8 </h5>
     - Issue 51 (Discussion Forum message overview) 
     - Issue 80 (Access to delete the message in course discussion form)
-    - Issue 85 (User-friendly messages)
-    -  </pre>
-  - <pre> All these are assigned to milestone 0.9
+    - Issue 85 (User-friendly messages) 
+  - <h5> All these are assigned to milestone 0.9</h5>
     - Issue 102 (Activity Log) 
-    - Issue 113 (Unread Notifications for messages)
-    -  </pre>
+    - Issue 113 (Unread Notifications for messages) </pre>
   
   
 
