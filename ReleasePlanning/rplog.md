@@ -1,6 +1,5 @@
 <h4>Week 46</h4>
-
-As part of releasing planning assignment, 73 issues are provided in the GitHub. Each and every issue is clearly observed. Some of the issues were clearly stated while some I did not understand. The issues that are not so well understood were left and proceed with the next issue. Some questions were raised during this process.
+Release Planning is a process of selecting requirements for the next releases based on the priority,development effort estimates and expected revenues[3].As part of releasing planning assignment, 73 issues are provided in the GitHub. Each and every issue is clearly observed. Some of the issues were clearly stated while some I did not understand. The issues that are not so well understood were left and proceed with the next issue. Some questions were raised during this process.
 
 <h4>Week 47</h4>
  In this week, some questions were posted by me in the github are as follows:
@@ -104,16 +103,16 @@ Most basic information in order to be able to find information about user in e.g
   - I added this issue as an enhancement to the Issue 80(Access to delete the message in course discussion form ) . THis will act as a source for the participants to retrieve the mesages thata rae deleted by mistake from the course discussion forumn or from the chat box.
   - As a part of this release planning assignment initially 73 issues were created and given. Some of these issues were ambigious,uncertain and not properly structured. while some other requirements are clear. As part of product release process in LSRE it is very important to identify which requirements are provided with clear information and Questions were raised for the requirements which are not clearly described. 
   - Till now i have  concentrated on clarifying the issues,identifying the dependencies and adding the requirements based on the dependencies.
-  - Requirements Abstraction model helps me a lot for this process, as it mainly contains four levels 
+  - Requirements Abstraction model[2] helps me a lot for this process, as it mainly contains four levels 
    - Product level
    - Feature level
    - Functional level
    - Component level
-  - This model helped me alot in understanding the level of each requirement given in the course. If it is in the product level then this requirement should have childs in the remaining three levels which is termed as sub requirements and depenedent requirements.
+  - This model helped me alot in understanding the level of each requirement given in the course. If it is in the product level then this requirement should have childs in the remaining three levels which is termed as sub requirements and depenedent requirements.The requirements dependencies also play an important role in the releas planning.The no of dependencies between diffrent releases should be less for reducing the complexity[1].
  
-  - A group meeting was conducted for discussing about the techniques that should be used for the prioritization of requirements and the factors that should be considered during prioritization. Along with the prioritization, road mapping of the product is also done in the presence of the team members. This road map contains a total of 6 milestones, in which these requirements are assigned to these milestones and along with that the development life cycle of the entire product is completed.
+  - A group meeting was conducted for discussing about the techniques that should be used for the prioritization of requirements and the factors that should be considered during prioritization. Along with the prioritization, road mapping of the product is also done in the presence of the team members.A road map[3] is a document that provides the layout of a product releases to come over a time frame. This road map contains a total of 6 milestones, in which these requirements are assigned to these milestones and along with that the development life cycle of the entire product is completed.
  
-  - For prioritizing the requirements the technique that we opt is grouping. In which we used MoSCoW technique.
+  - For prioritizing the requirements the technique that we opt is grouping[4]. In which we used MoSCoW technique.
   - MoSCoW technique mainly concentrates on delivering the greatest and most immediate business benefits early.In this technique the requirements are classified into four categories They are 
     - Must have: these requirements are critical to the current delivery in order for it to be a success. Even one requirement of this category is not included then the project leads to the failure.
     - Should have: These requirements are important but not necessary for delivery in the current release. These are as important as must but not that much critical as must.
@@ -153,8 +152,13 @@ Most basic information in order to be able to find information about user in e.g
     - Issue 113 (Unread Notifications for messages) </pre>
   
   
+- References:
+  - [1]	S. Brinkkemper, “13 Market-Driven Requirements Engineering for Software Products”.
+  - [2]	T. Gorschek and C. Wohlin, “Requirements Abstraction Model,” Requir. Eng., vol. 11, no. 1, pp. 79–101, 2006.
+  - [3]	P. Carlshamre, K. Sandahl, M. Lindvall, B. Regnell, and J. N. O. Dag, “An industrial survey of requirements interdependencies in software product release planning,” Proc. Fifth IEEE Int. Symp. Requir. Eng., pp. 84–92, 2001.
+  - [4]	P. Berander and A. Andrews, “Requirements Prioritization,” in Engineering and Managing Software Requirements SE  - 4, A. Aurum and C. Wohlin, Eds. Springer Berlin Heidelberg, 2005, pp. 69–94.
 
- 
+
 
 
 
