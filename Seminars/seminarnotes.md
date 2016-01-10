@@ -184,6 +184,7 @@ Identifying the question marks with the potential to gain market share from all 
       -  Each of these steps is clearly explained with figures and thus, it helps to know the practical view of QUPER model. Also, the complete version of QUPER was evaluated in the industry at one case company with 24 industry professionals using real QR.
 
    
+   
     - <h5> A Market-Driven Requirements Engineering Process: Results from an Industrial Process Improvement Programme</h5>
       - The authors of this paper describe a specific industrial RE process for packaged software, called REPEAT. 
 When developing packaged software for a marketplace, the RE process should be able to come up with requirements based on the foreseen end-user needs and select a set of requirements resulting in a software product which can compete on the market. REPEAT model can be used, for managing the continuous requirements.
@@ -222,6 +223,7 @@ When developing packaged software for a marketplace, the RE process should be ab
       - All these observed challenges were overcome in the REPEAT 2 model which involves hierarchical use case modelling and cost-value use case prioritization. Instead of depending on the expert judgement, REPEAT 2 model groups the requirements based on the use cases to which they are related, combined with a systematic cost-value prioritization approach.
       
       
+      
     - <h5>Introducing Support for Release Planning of Quality Requirements – An Industrial Evaluation of the QUPER Model</h5>
       - The market-driven product development and release planning are becoming more common in the software industry. Release planning involves the selection of what features and requirements should be in a certain release, when it should be released and at what cost. Release planning is very crucial for the success of a product in the competitive market. Lacking of good release planning leads to unsatisfied customers and market loss.
       - In the competitive market, products with high-quality level dominate all the remaining competitors’ products. These quality requirements play an important part in the market-driven requirements engineering. When dealing with quality attributes like performance, usability and reliability, often fall into a difficult trade-off analysis. Along with that aspects like release targets, end-user experience and business opportunities must be taken into account.   
@@ -243,7 +245,78 @@ When developing packaged software for a marketplace, the RE process should be ab
       - The authors of this have tailored, implemented and evaluated the QUPER model on real projects using real requirements at Sony Ericssion. The results obtained were positive, it is relevant in high-level decision-making for quality requirements during release planning. The evaluation results show that this model is easy to understand and learn, straight forward and not complicated to apply. The challenges addressed during the evaluation of QUPER model were identifying and defining the values for breakpoints.
 
 
+    - <h5> The Art and Science of Software Release Planning</h5>
+      - This paper mainly concentrated on the importance of release planning. Release planning address the decisions related to selecting and assigning features to create a sequence of consecutive product releases that satisfies important technical, resource, budget and risk factors. A good release plan should 
+        - Satisfy the involved stakeholders.
+        - Feasible with available resources
+        - Dependencies between the features should be reflected
+        - Maximum benefit values by delivering the best features in a right sequences of deliveries.
+      - The authors of this paper presented two approaches to release planning. They are 
+        - The art of RP approach: relies on the human intuition, communication, and capabilities which can address RP’s implicit and tactical aspects. This approach is used in many agile practices, it includes physical meetings between different stakeholders and relies on their effort. This approach fails, when the number of features and stakeholders is high. It doesn’t provide any guidance on how to decide features and priorities in the case of involvement of multiple stakeholders and techniques to solve the conflicts that arise between multiple stakeholders.
+        - The science of RP approach: This is a formal approach which is based on the belief that the problem can be formalized and results can be obtained by solving it.
+      - The formalization of RP aspects using ad-hoc methods include incremental funding method and penny’s maintenance planning. These approaches fail to address the factors that impact release planning.The art-based approach faces trouble with the RP problem’s complexity as the number of factors grows. This complex problem can be overcome by the Science-based approach. The science-based approach fails to evaluate the problem similar to humans. Both these approaches have their own disadvantages. To overcome this problem, a new approach i.e. Hybrid approach is developed.
+      - This approach combines both art and science in a high-level framework that stresses the continuous process needed to perform the release planning and replanning. This approach is developed further and consists of three phases of the planning process. They are         - Modelling: It mainly concentrates on the description of the dynamic real world to make it suitable for computational-intelligence-based solution techniques. This includes three tasks they are
+          - Plan objectives and constraints: It involves formalizing the objective function.
+          - Offer stakeholder voting: These are the people directly or indirectly affected by the release planning.
+          - Estimate resources: Estimates of various resources are implemented to each feature.
+	 - Exploration: In this phase, basing on the formal model a solution plan is generated.
+	 - Consolidation: In this phase, based on the experience and the problem context the decision makers evaluate the computational algorithm’s solution. 
+       - The proposed approach is also implemented, a trial project encompasses 15 features to include in the next two releases. The reasons for developing and it also promises to carry release planning state to a higher level are because of:
+        - The need for sophisticated methodology
+        - Letting organizations to plan easily by introducing formalism.
+        - Along with values of features, impact criteria should also consider.
+        - Formally generated release plans should be evaluated easily by humans.
+
+    
+    
+    
   - <h5> Seminar 1</h5>
+    - <h5>A method for early requirements triage and selection utilizing product strategies</h5>
+      - The authors of this paper evaluate an efficient and effective method that deals with the challenge of an overload of the development organization due to a large number of requirements in the case of market-driven product development. In market-driven requirements engineering, requirements come from internal sources and also from external sources which result in large and continuous flow of requirements. All these issued requirements are stored in the repositories. Continuous requirements lead to the overload of repositories in the development organizations. It is difficult for the product management to select the requirements that are aligned with the products strategy by removing the requirements that are not suitable or ambiguous and uncertain. Strategy formulation is an important factor and factors affecting it vary among stakeholders. Strategic and middle management and technical experts all need to share one vision. This can be accomplished by a method for Early Requirement Triage and selection (MERTS) which consists of both strategic and technical perspectives to formulate the product strategies. 
+      - The main reason for using MERTS is to provide a clear view for achieving consensus and for understanding the product strategy. The main purpose of MERTS is
+        - It acts as a stepwise guide for creating product strategies that consider both technical and strategic views.
+        - Strategies resulting from MERTS can be used by project managers to efficiently perform requirement triage and requirement selection in a reasonable amount of time.
+      - A method for early Requirements Triage utility product strategies (MERTS) is built based on the needs identified in literature and industry. MERTS is centered on ensuring that the five strategic questions for a product are answered explicitly. The project managers using this method should follow three parts and each part has several steps.
+        - Early requirement Triage: Some steps are provided to create an initial product strategy for use in requirement triage.
+          - Specify: It concentrates on specifying the directions of movement for the product deduced from the organizations’ mission statement. It includes answers for three strategic questions Where we want to go? , How to get there? , and What will be done?. These questions help in understanding the goals and objectives associated with a specific product.
+          - Assign weights: The weights are assigned to the each answer obtained from the step 1. The weights are allocated to each based on their relative importance. 
+          - Compare requirements: Total weights of all requirements obtained from step 2 are compared against a threshold to select or reject each of the requirements.
+        - Requirements selection for release: After the identification of a set of requirements, the next step is when to get there. This can be done through two steps 
+          - Specification of product technology roadmap: It provides a clear view of the relationship between product releases and technology generation.
+          - Estimating resources: In order to determine the feasibility and organization need, the effort estimates are calculated and plotted in the road map.
+        - Strategic Rationale: Once the strategic questions have been answered, the reasoning behind the decisions should be reported.
+      - The validation of this method MERTS was performed in the industry. It mainly concentrated on the aspects usability and usefulness of the MERTS method and the obtained results are positive.
+
+    
+    - <h5>Requirements engineering: In search of the dependent variables</h5>
+      - When software development teams modify their requirements engineering process as an independent variable, the change in the process can be assessed by examining the quality of the products requirements engineering process. The authors of this paper present a framework of dependent variables. Organizations are seeking to improve their requirements engineering process. The results in change of process can be assessed using two ways they are
+        - Requirements process: It is a measurement of time and consumed.
+        - Primary product: It is the measurement of the quality of the software product.
+      - Processes that are changed called independent variables and the outcomes that are observed due to these changes are dependent variables. As they change tremendously from shortest term to longest term. Deciding the right dependent variable for any case is non-trivial. So, the authors of this paper present a framework of dependent variables. Consists of five levels. Each level can serve as a basis for quality assessment in requirements engineering. The impact on the dependent variables can be assessed when the requirements process changes. These dependent variables have five distinct levels they are 
+        - Requirements phase: This level determines the level of Requirements specification. This level includes the dependent variables related to 
+          - Requirements cost and time:It includes total cost of requirement effort,total duration used for development.
+          - Requirements quality: It includes the quality of the requirements specification.
+        - Project: This level determines the degree of project’s success. It also includes the dependent variables related to 
+          - Project cost and time: it considers the total project duration and cost.
+          - Project estimates: It is defined as the degree of meeting the budget, schedule, and as specified requirements.
+          - Degree of requirements change: It includes the change in the process of requirements.
+        - Product: This level determines the degree of product success. It also includes the dependent variables related to
+          - Requirements selection: It is defined as the degree to which the selected requirements reduce errors and increases the efficiency of the product. 
+          - Degree of impact: It is defined as the degree to which the product increases the revenue, decrease costs for the company developing the product.
+        - Company: This level describes whether the company was successful or not. It includes some of the measures like
+          - Portfolio management: It is defined as the degree to which products compliment each other and demonstrate the use of resources.
+          - Strategic alignment: It is defined as the degree to which product align with the strategies.
+          - Degree of impact: The factors like profits, profit growth, market share, and return on investment are examined in this area.
+        - Society: The project that contributes to a company’s bottom line and pollutes the environment or kills people must be considered as the failure. In society level, products give rise to positive and negative externalities.
+      - A detailed summary of previous research on measures of all the five levels by which this article acts as a reference for research performed in this area. The contributions of this paper include
+        - The influence of RE process can be assessed by creating the taxonomy levels.
+        - The impacts are multidisciplinary and multi-perspective at higher levels in the taxonomy.
+        - Strategies should be performed explicitly and the individuals performing RE process should be aware.
+        - Product strategies should reflect long-term goals by aligning to both current market and technology trends.
+        - The assessment of RE process change is very difficult from a wider perspective.
+      - All the engineers, managers and marketing personnel develop and share responsibility for monitoring dependent variables. They identified that change in the process affects more than one quality level. It is very important to identify the importance of dependent variables among different levels 
+
+    
     - <h5>A Cost–Value Approach for Prioritizing Requirements</h5>
       - Developing software systems that meet stakeholder’s needs and expectations is the ultimate goal of any software provider seeking a competitive edge. For achieving this stakeholder’s requirements: the features, functions, and the attributes should be managed effectively and accurately in the software system. In the real word software development, the number of incoming requirements will be more than the number of requirements selected for implementation. It is very difficult on deciding which requirements are really mattered and one increasingly demanded because of time and budget constraints. The managers still don’t have simple, effective and industrial proven techniques for prioritizing the requirements.  Considered this scenario as a gap and the authors of this paper developed an analytical tool for prioritizing the requirements based on a cost-value approach.
       - Clear and unambiguous knowledge about the prioritization of requirements helps the companies to manage the projects effectively and efficiently. It can also help in 
@@ -267,6 +340,7 @@ There are five steps for prioritizing the requirements using cost-value approach
         - This diagram will act as a conceptual map for analyzing and discussing the candidate requirement by the stakeholders.
       - The software managers prioritize the requirements and decide which will be implemented and also used for developing the strategies for release planning. This technique has been applied in two commercial telecommunications software development systems. These two projects clearly describe how well the requirements are prioritized based on the cost-value approach and the implementation of analytical hierarchy process for pair comparison and the process that is carried out in the cost-value approach is clearly described.The main problem with this approach, more requirements will also raise the problem of complexity, since the number of pairwise comparisons.
  
+
   - <h5> Seminar 2</h5>
      - <h5>Towards a Reference Framework for Software Product Management</h5>
        - The authors of this article mainly focused on developing a reference framework which provides a structure for a body of knowledge for software product management. A clear explanation of how a software product management process is carried out entirely by an organization and the structure of the software product management is not provided clearly. The authors of this article considered this as a gap and developed a reference framework based on an overview of state-of-the-art literature and industrial case studies. This framework clearly explains the step by step process that is carried out by the product managers/organization during the software product management. It also helps in identifying the stakeholders for the company/product and their relation during software product management. 
@@ -312,6 +386,9 @@ There are five steps for prioritizing the requirements using cost-value approach
            - Sales and marketing
            - Company board
        - This article provides me a clear information and structure of the software product management. The internal processes that are carried out during the software product development and the tasks that are involved in the each process (Road mapping, release planning, requirements management, portfolio management) are clearly understood.
+      
+
+       
   - <h5> Exploring factors affecting decision outcome and lead time in large scale requirements engineering</h5>
     - In MDRE process, the product has to be aligned with the targeted market needs to create a profitable software product. In MDRE projects, requirements keep on coming, deciding which requirements to be implemented is far from trivial. Customer needs keep evolving and cause changes to requirements. Analyzing and deciding upon these changes are critical for staying competitive in the market. 
     - It is very difficult to select which change requirements should be accepeted. To effectively improve the RE decision-making more effort should be dedicated towards decision-making aspect. It is very important to identify the factors that affect the decision lead time and the decision outcome. Some of the characteristics of change requests that are identified 
@@ -338,7 +415,9 @@ There are five steps for prioritizing the requirements using cost-value approach
       - In VLSRE, less complex decisions are more rejected. In smaller contexts, they are more likely accepted.
       - In VLSRE, change of accepting a request is higher if that request affects a late release. In smaller these late requests are rejected.
       - In VLSRE, decision-making is not faster for important customers. In smaller contexts important customers receive faster responses.
-       
+      
+
+
   - <h5>An Industrial Survey of Requirements Interdependencies in Software Product Release Planning</h5>
    - The authors of this paper mainly concentrated on identifying the nature and frequency of requirements interdependencies and their importance in software release planning. As the incremental development strategies become a common place in the industry, incremental planning gains both importance and interest. The task of finding an optimal selection of requirements for the next release of the software system is difficult as requirements may depend on each other in complex ways. The authors of this paper conducted an informal survey and identified six different planning parameters that need to be considered and satisfied for release planning they are
      - Available resources
@@ -366,6 +445,8 @@ There are five steps for prioritizing the requirements using cost-value approach
    - Finally, a data visualization approach is applied for managing the requirements interdependencies. In this approach, the requirements and their interdependencies are represented by using objects and arrows in a traditional way to draw important conclusions associated with release planning. This helps in identifying the flow of a process between the requirements. This paper also concentrates on identifying the requirement dependencies with less effort. First of all, singular requirements, i. e., requirements having no relationship with any other requirements, are easily identified which can be released in any increment. Later the requirements having relationships to many other requirements are further identified and released as early as possible. Finally, free clusters of requirements can be planned for any increment, as long as all involved requirements are scheduled for the same increment. Requirements that are having many dependencies between them should be scheduled for the same release in order to simplify the realization. 
    - In order to support the release planning the concepts requirements coupling and release coupling are used. Requirements coupling is used to describe the complexity of the planning. Release coupling is used to specify the number of interdependencies between the partitions (releases). These two serve as an interdependency goodness measure in release planning. Finally, authors of this paper concluded that to minimize the efforts needed to identify and manage the requirements interdependencies it is important to find and refine the heuristics for the identification of singular requirements as well as highly dependent requirements and finally the free clusters.
   
+
+
   - <h5>Seminar 3</h5>
   - <h5>Obsolete Software Requirements</h5> 
     - Software as a business is a demanding environment, where a growing number of users, rapid introduction of new technologies and fierce competition are inevitable. The major challenges in this environment are high volatility and quick evolution of requirements, requirements that often are more likely to become obsolete even before project completion.
@@ -383,6 +464,8 @@ There are five steps for prioritizing the requirements using cost-value approach
      - These obsolete requirements should be handled in the requirements analysis and requirements validation process.
     - The process of identifying, handling and removal of obsolete requirements is crucial. The identified requirements are stored either in databases or in documents. These requirements are not deleted because they can be used for the purposes reference and traceability, which help in minimizing the repeated work. 
    
+
+
   - <h5> Seminar 4</h5>
 
 
