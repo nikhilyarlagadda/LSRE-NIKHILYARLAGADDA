@@ -152,6 +152,38 @@ Identifying the question marks with the potential to gain market share from all 
 
 <h5>Articles</h5>
   - <h5> Seminar 0</h5>
+    - <h5>A Case Study Evaluation of the Guideline-Supported QUPER Model for Elicitation of Quality Requirements</h5>
+      -  Release planning is very important for market-driven software product developing organizations operating on a competitive open market. Product releases should be planned as early as possible to obtain the advantage of MDRE process with more quality level. Quality requirements play a major role for gaining success in the competitive market by overcoming competitors’ products. Hence, quality requirements can be considered to be a key competitive advantage. The main aim for developing QUPER model is to support high-level decision making in release planning of quality requirements. Release planning is defined as a process of deciding which requirements and quality level should be taken into account in each release.
+      -  The main challenging task for the organizations developing software products is to set the right quality target in relation to future market demands and competitor products. Several methods and approaches like Release planning prototype and EVOLVE exist for supporting release planning. The main problem with these techniques is they use genetic algorithms for resolving release planning issues, which is a problem if the input data to the process is uncertain. None of the methods considered Quality requirements for release planning. Only two methods address quality constraints for release planning. They are 
+        -  Win-Win model, focused on effort and time constraints.
+        -  QUPER model is the only model to address the cost and quality constraints of Quality requirements.
+      -  The need for handling the quality requirements and developing the model for supporting was identified during an investigation of cross-company requirements engineering process. Two main factors for the creation and evolvement of QUPER model are as follows
+        -  Need for industry
+        -  There is no suitable model for supporting the Quality requirements.
+      -  The authors of this article mainly focused on 
+        -  Guidelines of how to apply QUPER model in practice, with an illustration of Quality requirements.
+        -  Incorporating cost dependencies between quality requirements.
+        -  Two new evaluations of the complete version of quality requirements which help in finding the QUPER's applicability.
+      -  Detailed guidelines for application of QUPER model is presented in 7 steps by considering an example of quality requirements. They are 
+      -  Identify candidate quality requirements: It is important to consider the relevant features, market, competitor, and hardware platform capability when defining quality requirements.
+      -  Define scale and unit: The quality level is identified with the help of scale and unit.
+      -  Identify reference levels: Identify reference levels based on actual products and competing products. Estimations are considered based on the uncertainty level.
+      -  Elicit quality breakpoints: For each quality requirement, market expectations should be defined as the values of quality breakpoints.
+        -  Utility breakpoint which is the lowest acceptable value in the market 
+        -  Saturation breakpoint, representing quality levels that are clearly considered excessive by the market. 
+        -  Differentiation breakpoint, values above this breakpoint give a market advantage.
+      -  Estimate cost barriers: For each quality requirement, the cost factor is estimated in terms of values of cost barriers. The recommended number of cost barriers are two.
+      -  Set candidate requirements: Candidate requirements should be identified and decided for coming releases. Estimates can be given in three forms. They are
+        -  Both a good target and a stretch target.
+        -  Stretch target, highest accepted value is specified.
+        -  Good target, lowest accepted value is specified.
+      -  Identify cost dependencies: The other quality requirements that need to be changed if the quality requirement is improved from one breakpoint to another. It is important to identify the cost dependencies. Two factors should be considered during the selection process.
+        -  Identifying the list of quality requirements that are cheaper and easier to improve when the one quality requirement is improved.
+        -  Identifying the list of quality requirements that are more difficult and expensive to improve when the one quality requirement is improved.
+      -  An extra step is Identifying cost dependencies were included in this paper. Dependencies have an impact on the estimated cost of another quality requirement. The cost to improve the quality level for one QR may imply an improved level of quality for other QR. This may lead to a change of other QR cost barriers and which QR to select for the coming release. 
+      -  Each of these steps is clearly explained with figures and thus, it helps to know the practical view of QUPER model. Also, the complete version of QUPER was evaluated in the industry at one case company with 24 industry professionals using real QR.
+
+   
     - <h5> A Market-Driven Requirements Engineering Process: Results from an Industrial Process Improvement Programme</h5>
       - The authors of this paper describe a specific industrial RE process for packaged software, called REPEAT. 
 When developing packaged software for a marketplace, the RE process should be able to come up with requirements based on the foreseen end-user needs and select a set of requirements resulting in a software product which can compete on the market. REPEAT model can be used, for managing the continuous requirements.
@@ -188,7 +220,29 @@ When developing packaged software for a marketplace, the RE process should be ab
         - Bridging the chasm between elicitation and selection: the requirements fragments are described at very different levels of abstraction and classification gets difficult.
         - Long term product strategy for a diversity of market segments: the need of promoting activities related to the existing long-term product strategy and prioritization in relation to a range of market segments.
       - All these observed challenges were overcome in the REPEAT 2 model which involves hierarchical use case modelling and cost-value use case prioritization. Instead of depending on the expert judgement, REPEAT 2 model groups the requirements based on the use cases to which they are related, combined with a systematic cost-value prioritization approach.
- 
+      
+      
+    - <h5>Introducing Support for Release Planning of Quality Requirements – An Industrial Evaluation of the QUPER Model</h5>
+      - The market-driven product development and release planning are becoming more common in the software industry. Release planning involves the selection of what features and requirements should be in a certain release, when it should be released and at what cost. Release planning is very crucial for the success of a product in the competitive market. Lacking of good release planning leads to unsatisfied customers and market loss.
+      - In the competitive market, products with high-quality level dominate all the remaining competitors’ products. These quality requirements play an important part in the market-driven requirements engineering. When dealing with quality attributes like performance, usability and reliability, often fall into a difficult trade-off analysis. Along with that aspects like release targets, end-user experience and business opportunities must be taken into account.   
+      - To support release planning and road mapping of quality requirements, a quality performance model was utilized (QUPER model). The authors of this paper mainly focused on the industrial evaluation of the QUPER model.  The quality performance model is a feature prioritization which includes quality as a dimension along with the two dimensions cost and value that are used for the prioritization of functional requirements. This model supports the prioritization and roadmapping of quality requirements at early stages of release planning, where high-level scoping decisions and roadmaps are created. The quality model was developed in three steps  mainly
+        - Problem definition: To understand different requirement decision and the need for the cost-benefit model including quality aspects to support roadmapping and scoping was identified.
+        - Model definition: It mainly comprises of three views mainly
+          - Benefit view: It includes breakpoints indicating principal changes in the benefit level with respect to user experience and market value. There are three breakpoints in this view. A breakpoint is identified as a non-linear relation between quality and benefit.
+            - Utility break point: It is defined as a border between useless quality and useful quality.
+            - Differentiation breakpoint: It is defined as a border between a useful quality to competitive quality.
+            - Saturation breakpoint: It is defined as the change in the quality level from competitive to excessive quality. There is no impact on the benefit after reaching to higher quality levels.
+          - Cost view: It includes the notation of cost barriers that represent the non-linear relation between quality and costs.
+          - Roadmap view: It combines the cost and benefit views by positioning the breakpoints and barrier together ordered on the same scale. This enables the visualization of benefit breakpoints and cost barriers with respect to the quality levels of the current and competing products.
+        - Model validation: An evaluation of the model is carried out through interviews with experts.
+      - This model is evaluated at Sony Ericsson. It only includes benefit view because it is an important factor to consider in QUPER model. The following four steps describe how the QUPER benefit view is implemented at Sony
+        - Quality aspects identifying 
+        - Estimating the products current quality and competing for product quality
+        - Estimating the breakpoints for each quality attribute 
+        - Estimating candidate targets, discussing and deciding the actual targets for coming releases.
+      - The authors of this have tailored, implemented and evaluated the QUPER model on real projects using real requirements at Sony Ericssion. The results obtained were positive, it is relevant in high-level decision-making for quality requirements during release planning. The evaluation results show that this model is easy to understand and learn, straight forward and not complicated to apply. The challenges addressed during the evaluation of QUPER model were identifying and defining the values for breakpoints.
+
+
   - <h5> Seminar 1</h5>
     - <h5>A Cost–Value Approach for Prioritizing Requirements</h5>
       - Developing software systems that meet stakeholder’s needs and expectations is the ultimate goal of any software provider seeking a competitive edge. For achieving this stakeholder’s requirements: the features, functions, and the attributes should be managed effectively and accurately in the software system. In the real word software development, the number of incoming requirements will be more than the number of requirements selected for implementation. It is very difficult on deciding which requirements are really mattered and one increasingly demanded because of time and budget constraints. The managers still don’t have simple, effective and industrial proven techniques for prioritizing the requirements.  Considered this scenario as a gap and the authors of this paper developed an analytical tool for prioritizing the requirements based on a cost-value approach.
