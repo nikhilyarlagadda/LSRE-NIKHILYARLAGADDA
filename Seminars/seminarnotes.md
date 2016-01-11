@@ -150,6 +150,9 @@ Identifying the question marks with the potential to gain market share from all 
    - [2]	R. Sud and J. Arthur, “Requirements management tools: A quantitative assessment,” pp. 1–19, 2003.
    - [3]	S. Heinonen, “Requirements Management Tool Support for Software Engineering in Collaboration,” 2006.
 
+
+
+
 <h5>Articles</h5>
   - <h5> Seminar 0</h5>
     - <h5>A Case Study Evaluation of the Guideline-Supported QUPER Model for Elicitation of Quality Requirements</h5>
@@ -269,8 +272,37 @@ When developing packaged software for a marketplace, the RE process should be ab
 
     
     
-    
   - <h5> Seminar 1</h5>
+    - <h5>Requirements Abstraction Model</h5>
+      - In market-driven requirements engineering, requirements come from internal sources and also from external sources which result in large and continuous flow of requirements. All these software requirements arrive in different shapes and forms to the developing organization. These requirements can be of any type such as a new feature, update to an existing feature, bug fixing and improving the quality attributes of existing features. The product managers are facing a challenge of how to take care of the continuously incoming requirements ranging from abstract to technical. The authors of this paper, identified this as a gap and developed a model called Requirements Abstraction Model (RAM).This paper focuses on the creation of RAM model in close corporation with industry and validated through feedback and how it is tested in a live project.
+      - The main reason for developing the RAM, due to the increase in the pressure on product development organizations to handle the continuous incoming requirements. To reduce the burden to the managers of the organization this model was developed and it provides the management for handling the requirements and their varying at different abstraction levels. Two major factors motivated for the creation and evolvement of RAM are
+        - Direct need identified in industry.
+        - Suitable method for continuous catching and handling them on multiple levels of abstraction was not found in the literature before.
+      - The aim of the RAM is to provide a requirement engineering model that helps professionals with product planning and development. It supports the continuous requirements engineering effort, aimed at taking the requirements at multiple levels as input and offers a structure for breaking down these requirements into detailed ones and vice versa by means of work-up. The benefits of using RAM in the context of continuous requirements are 
+        - All the requirements are compared with the product strategies to ensure that none of the requirements violate the goals set by organization.
+        - Requirements are broken down to abstract level, helps in clear understanding and easy to estimate the effort required.
+        - Work-up of requirements is done i.e. requirements are formulated on the same level of abstraction and hence they can be compared and set against one another.
+        - Requirements can be followed through several levels of abstraction for better understanding of each requirement.
+      - The requirements on different levels are considered as crucial input in order to get better understanding of what is developing and why it is developing. This model does not assume any starting point, it takes available requirement as input and uses it as a base. The requirements are not fixed to one level which enables the possibility to compare requirements against each other at different abstraction levels. Evolvement of RAM took place through several stages i.e. static and dynamic validation. The authors of this article, present RAM v.1.0 which is mainly aimed towards establishing support for initial stages of requirements engineering which is performed by Project Managers. 
+      - RAM model is implemented in three steps in requirements engineering
+        - Specify: It involves specifying the initial requirement and eliciting enough information about it to specify a number of requirements. Four attributes are manually specified they are 
+          - Description: It provides the central essence of the requirement.
+          - Reason/Benefit/Rationale: It deals with why the requirement is specified and benefit of the requirement.
+          - Risk/Restrictions: This attribute describes the restrictions and risks with the requirements.
+          - Title: It reflects the contents of the requirement.
+        - Place: It is centered around what abstraction level the now specified requirements reside on. It consists of four abstraction levels they are 
+          - Product level: It is the most abstract level. In this requirements are considered abstract enough to be comparable directly to the product strategies.
+          - Feature level: It is next level in the model. The requirements on this level are features that the product supports. 
+          - Functional level: This requirement should be a descriptive of what a user should be able to perform. It mainly concentrates on the functional activities.
+          - Component level: It is the last level in the model. These requirements are of a detailed nature depicting information in detail. These act as a possibility to breakdown functional level requirements into more detail and set the limits to functional level requirement.
+        - Abstraction: It involves breakdown of requirement, depending on initial placement of original requirement. The work- process involves the creation of new requirements to the adjacent levels or linking the existing requirements. Two rules are used to do this work-process they are 
+          - Rule 1 : NO requirement may exist without having a connection to the product level
+          - Rule 2: All requirements have to be broken down to functional level.
+          - If the requirements are not specified in the other levels then the additional requirements are specified in the abstraction levels until workup rule R1 and R2 satisfied. A how-to guide is also provided to help how to specify the requirements in the abstract level.
+      - Static and dynamic validations is also conducted to this model. Static validation is conducted at the organization facing the improvement issues. It involves reviews and walkthroughs. Dynamic validation is done to validate the components of the model and to verify whether this model is suitable for real development situation. The issues faced by the requirement engineers and project managers of different organisations as the consideration of abstraction levels would be different in different companies. The results obtained were positive and problems identified were not directly associated with the RAM model.
+
+
+
     - <h5>A method for early requirements triage and selection utilizing product strategies</h5>
       - The authors of this paper evaluate an efficient and effective method that deals with the challenge of an overload of the development organization due to a large number of requirements in the case of market-driven product development. In market-driven requirements engineering, requirements come from internal sources and also from external sources which result in large and continuous flow of requirements. All these issued requirements are stored in the repositories. Continuous requirements lead to the overload of repositories in the development organizations. It is difficult for the product management to select the requirements that are aligned with the products strategy by removing the requirements that are not suitable or ambiguous and uncertain. Strategy formulation is an important factor and factors affecting it vary among stakeholders. Strategic and middle management and technical experts all need to share one vision. This can be accomplished by a method for Early Requirement Triage and selection (MERTS) which consists of both strategic and technical perspectives to formulate the product strategies. 
       - The main reason for using MERTS is to provide a clear view for achieving consensus and for understanding the product strategy. The main purpose of MERTS is
