@@ -114,6 +114,91 @@
       - Risk/Restriction: User may forget login id
       - Abstract level: Function level
   - The requirement 3 is an original requirement and it is in the component level. It has two requirements in the abstract levels. So I have created one new requirement 9 and placed them in the function level. The requirements 1 and 4 are already existing requirements, I have lined them to this requirement without creating a new requirement.
+  - <h5>Lessons learned</h5> 
+    - It is easy to implement and work out the process. The requirements can be handled easily and can also break the complex requirements from higher level to lower level by using this model   The problems that, I have faced during the implementation was with placing the requirement into suitable level. 
+    
+  
+- <h5>Article 2: QUPER</h5>
+  - <h5> QUPER Description</h5>
+    - Detailed guidelines for application of QUPER model is presented in 7 steps by considering an example of quality requirements. They are 
+      -  Identify candidate quality requirements: It is important to consider the relevant features, market, competitor, and hardware platform capability when defining quality requirements.
+      -  Define scale and unit: The quality level is identified with the help of scale and unit.
+      -  Identify reference levels: Identify reference levels based on actual products and competing products. Estimations are considered based on the uncertainty level.
+      -  Elicit quality breakpoints: For each quality requirement, market expectations should be defined as the values of quality breakpoints.
+        -  Utility breakpoint which is the lowest acceptable value in the market 
+        -  Saturation breakpoint, representing quality levels that are clearly considered excessive by the market. 
+        -  Differentiation breakpoint, values above this breakpoint give a market advantage.
+      -  Estimate cost barriers: For each quality requirement, the cost factor is estimated in terms of values of cost barriers. The recommended number of cost barriers are two.
+      -  Set candidate requirements: Candidate requirements should be identified and decided for coming releases. Estimates can be given in three forms. They are
+        -  Both a good target and a stretch target.
+        -  Stretch target, highest accepted value is specified.
+        -  Good target, lowest accepted value is specified.
+      -  Identify cost dependencies: The other quality requirements that need to be changed if the quality requirement is improved from one breakpoint to another. It is important to identify the cost dependencies. Two factors should be considered during the selection process.
+        -  Identifying the list of quality requirements that are cheaper and easier to improve when the one quality requirement is improved.
+        -  Identifying the list of quality requirements that are more difficult and expensive to improve when the one quality requirement is improved.
+      -  An extra step is Identifying cost dependencies were included in this paper. Dependencies have an impact on the estimated cost of another quality requirement. The cost to improve the quality level for one QR may imply an improved level of quality for other QR. This may lead to a change of other QR cost barriers and which QR to select for the coming release.
+  - <h5>Article selection and why</h5>
+  - <h5>Execution and proof of concept</h5>
+    - QUPER model is executed in 7 steps as follows:
+      - Identify candidate quality requirements:
+        - Quality Requirement 1: The competitor have recently released a product with a response time of 3 sec.
+        - Quality Requirement 2: The competitor have recently released a product with a MTTR (mean time to repair) of 60 min.
+      - Define scale and unit: 
+        - Quality Requirement 1: 
+          - Scale: Time
+          - Unit: sec
+      - Quality Requirement 2: 
+          - Scale: Time
+          - Unit: min
+      - Identify reference levels:
+        - Quality Requirement 1: 
+          - Product: own product x                Level : 7 sec
+          - Product: competitor product y      Level : 6 sec
+          - Product: competitor product z	      Level : 2 sec
+        - Quality Requirement 2: 
+          - Product: competitor product  x           Level :85 min
+          - Product: own product y		 Level :80 min
+          - Product: competitor product z             Level : 60min
+      - Elicit quality breakpoints
+        - Quality Requirement 1: 
+          - Utility breakpoint : 9 sec
+          - Saturation breakpoint: 1sec
+          - Differentiation breakpoint: 5sec
+        - Quality Requirement 2: 
+          - Utility breakpoint : 90 min
+          - Saturation breakpoint: 30 min
+          - Differentiation breakpoint: 70 min
+      - Estimate cost barriers:
+        - Quality Requirement 1: 
+          - Q (ref) = 7 sec 
+          - Q1= 4 sec          new software architecture needed
+          - C1= 1 week
+          - Q2= 2 sec       new hardware architecture needed
+          - C2= 4 weeks
+       - Quality Requirement 2: 
+          - Q (ref) = 80min
+          - Q1= 65 min     new software architecture needed
+          - C1= 4 weeks
+          - Q2= 40 min     new hardware architecture needed
+          - C2= 9 weeks
+      - Set candidate requirements:
+        - Quality Requirement 1: 
+          - Good:4sec    Rationale: Beats most of its competitors
+          - Stretch:3 sec  Rationale: beats if software architecture is feasible
+        - Quality Requirement 2: 
+          - Good:50 min   Rationale: Beats most of its competitors
+          - Stretch:45 min   Rationale: beats if software architecture is feasible
+      - Identify cost dependencies:
+      - The last step in this QUPER model is to identify the dependencies. If the change in system for one quality requirement impacts how many quality requirements are identified in this steps. For this step, I assume that there a total of 9 Quality requirements including the above two quality requirements. 
+        - Quality requirement 1: In this case all the 9 requirements are dependent on each other. 
+          - Among a total of 3 requirements are easier and cheaper to implement  
+          - Among a total of 5 requirements are easier and cheaper to implement  
+        - Quality requirement 2: In this case only 7 requirements are dependent on each other. 
+          - Among a total of 4 requirements are easier and cheaper to implement  
+          - Among a total of 2 requirements are easier and cheaper to implement  
+      - After this an expert will identify to implement which dependencies either the easier or harder based on the estimated values and effort.
+
+
 
 
 
