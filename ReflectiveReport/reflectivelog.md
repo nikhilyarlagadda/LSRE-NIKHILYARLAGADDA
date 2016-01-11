@@ -27,6 +27,93 @@
         - Rule 2: All requirements have to be broken down to functional level.
       - If the requirements are not specified in the other levels then the additional requirements are specified in the abstraction levels until workup rule R1 and R2 satisfied. A how-to guide is also provided to help how to specify the requirements in the abstract level. 
  - <h5> Article selection and why </h5>
+   - The main reason for selecting this article, is because a clear explanation of RAM model is presented, when it is used, why is it used and need for the RAM model. A guide how to implement and connect the requirements to abstract levels is also provided in this article and the description provided about RAM is easy to understand. RAM model contains several steps, each and every step is clearly explained and illustrated with the help of an example. Along with this, the process involved in RAM model is very interesting. After looking into this article, I thought this model would be simple and ease to implement by following the information and guide provided in the article.
+ - Implementation plan:
+   - For implementing this model, I have selected the system online book store. Only three requirements are considered related to online book store system. Finally, RAM model is implemented on three requirements by following how-to guide provided in this article. Each and every step provided for RAM model in this article are implemented on these three requirements.
+ - Execution and proof of concept:
+   - The RAM model is executed on the selected three requirements. The RAM model contains three steps
+   
+   - Step 1: Specify 
+   - This step provides the information about the requirements. It mainly contains four attributes as mentioned. 
+    - Requirement 1: 
+       - Title: personal profile
+       - Description: users in the system shall have a personal profile.
+       - Why/Benefit: user wants to store the personal information/ allows the user to provide the personal information.
+       - Risk/restriction: only accessible after login 
+    - Requirement 2:
+      - Title: Search option
+      - Description: The users should be able to find information through a search option
+      - Why/Benefit: user wants to find the books relevant to the given information
+    - Requirement 3:
+      - Title: Unsuccessful login
+      - Description: If the user enters an incorrect user id and /or password the login page shall be reloaded with information
+      - Why/Benefit: feedback will be given to the user/user will get to know he enter wrong details.
+      - Risk/Restriction: user may not understand the information
+      
+  - Step 2: Place
+  - This step mainly concentrates on placing the incoming requirement into one abstract level. It contains four abstract levels. They are product, feature, functional and component level.
+    - Requirement 1: (personal profile)
+      - Abstract level: Feature level
+    - Requirement 2: (Search option)
+      - Abstract level: Functional level
+    - Requirement 3: (Unsuccessful login)
+      - Abstract level: Component level 
+    
+  - Step 3: Abstraction (work-up) 
+  - This step helps to create the requirements and to link them to other abstract levels. 
+    - Requirement 1: (personal profile: original requirement)
+      - Abstract level: Feature level
+    - Requirement 4: (Secure product: New requirement)
+      - Title: Secure product
+      - Description: The product shall prevent the unauthorized users
+      - Why/Benefit: unauthorized users are not able to access the system(no of views reduced) 
+      - Abstract level: Product level
+    - Requirement 5: (Modify/view personal profile: New requirement)
+      - Title: Modify/view personal profile
+      - Description: The users shall be able to view, modify their information by clicking update button.
+      - Why/Benefit: need to change any personal information
+      - Abstract level: Function level
+    - Requirement 6: (Notification: New requirement)
+      - Title: Notification
+      - Description: After successful modification of the personal profile, users should be notified.
+      - Why/Benefit: users shall know whether the information is changed or not.
+      - Risk/Restriction: Notification should be displayed on the screen for 10 sec.
+      - Abstract level: Component level
+  - The requirement 1 is an original requirement and it is in the feature level. As there are no requirements for this in the other abstract levels. So I have created three more new requirements 4, 5, 6 and placed them in their respective abstract levels.
+  
+    - Requirement 2: (Search option: original requirement)
+      - Abstract level: Functional level
+    - Requirement 7: (Accessibility and traceability: New requirement)
+      - Title: Accessible and traceability
+      - Description: The system shall enable to access any sort of information easily
+      - Why/Benefit: increase the traceability and performance of the system
+      - Abstract level: Product level
+    - Requirement 8: (Relevant information: New requirement)
+      - Title: Relevant information
+      - Description: The system should provide users to find relevant information
+      - Why/Benefit: It enables users to find similar information that is required
+      - Risk/Restriction: It should accept only alphabets and with a length of 100. 
+      - Abstract level: Feature level
+    - Requirement 9: (successful search: New requirement)
+      - Title: Successful search
+      - Description: After a successful search the information should be display in the same page 
+      - Why/Benefit:  It enables the user to see the information.
+      - Risk/Restriction: displayed 10 books per page
+      - Abstract level: Component level
+  - The requirement 2 is an original requirement and it is in the functional level.  As there are no requirements for this in the other abstract levels. So I have created three more new requirements 7, 8, 9 and placed them in their respective abstract levels.
+    - Requirement 3: (Unsuccessful login: original requirement)
+      - Abstract level: Component level
+    - Requirement 4: (Secure product: New requirement)
+      - Abstract level: Product level
+    - Requirement 1: (personal profile: original requirement)
+      - Abstract level: Feature level
+    - Requirement 9: (login: New requirement)
+      - Title: Login
+      - Description: The user must login before the product usage.
+      - Why/Benefit: Unauthorized users should not have access to product functionality
+      - Risk/Restriction: User may forget login id
+      - Abstract level: Function level
+  - The requirement 3 is an original requirement and it is in the component level. It has two requirements in the abstract levels. So I have created one new requirement 9 and placed them in the function level. The requirements 1 and 4 are already existing requirements, I have lined them to this requirement without creating a new requirement.
 
 
 
