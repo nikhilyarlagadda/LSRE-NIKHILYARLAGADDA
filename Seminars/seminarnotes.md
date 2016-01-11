@@ -388,6 +388,64 @@ There are five steps for prioritizing the requirements using cost-value approach
        - This article provides me a clear information and structure of the software product management. The internal processes that are carried out during the software product development and the tasks that are involved in the each process (Road mapping, release planning, requirements management, portfolio management) are clearly understood.
       
 
+
+  - <h5> Market-Driven Requirements Engineering for Software Products</h5>
+    - This paper mainly addresses the challenges that are faced in the MDRE, roadmapping, release planning, MDRE management and MDRE process.
+    - Developing a software product to an open market rather than to one specific customer. This type of software development is termed as market-driven requirement engineering. The main objectives of the MDRE is to deliver the right product at right time. The development costs of a product are divided among many buyers on an open market and profit is rewarded to the producer. MDRE covers the requirements engineering activities such as elicitation, validation, and specification. It also covers the activities like release management and market analysis which are important in the MDRE. It mainly focuses on the prioritization, cost estimation, and release planning which are conducted by the organization. Some of the most important characteristics of MDRE context are:
+      - Along with all the decisions, the developing organization will also take risks.
+      - The continuous flow of requirements throughout the product lifecycle.
+      - Incoming requirements are growing and their volume is large.
+      - The majority of the requirements are described informally
+      - Evolving continuously and delivered in multiple releases.
+      - Release planning focuses on the time-to-market and return-on-investment.
+    - The RE challenges that are faced in the market-driven software development are 
+      - Balancing the market pull and technology push: Finding a balance between technology driven and market driven.
+      - Chasm between marketing and development: the gap between marketing and development team leads to the different views on RE.
+      - Organizational instability and market turbulence: companies without defined process takes a significant risk when a person leaves the organization.
+      - Simple tools for basic needs: companies requested to use simple and easy to use techniques.
+      - Requirements dependencies: the presence of dependencies make the release planning difficult.
+      - Cost-value estimation and release planning: It requires accurate estimations, whereas inaccurate estimations lead to the cause of delay in deadline and rise of cost.
+      - Overloaded requirements management: It is a challenge to prevent the requirements repository from being flooded.
+    - The key factor for a market driven company is to continuously improve in managing these challenges in such a way that it stays ahead of competitors.
+    - When designing a MDRE process for a specific company, there are many situational factors that need to be considered for the process implementation. The factors are 
+      - Development process type
+      - Distribution channels type
+      - Market type
+      - Product complexity
+      - Nature of competition 
+      - Customer behavior
+      - User interface complexity
+      - Prediction on sales
+      - Product flexibility and adaptability
+    - During the design of MDRE process, it is important to determine the criteria for the success and the notation of process quality. The major problem related to the process quality is the quality of decision made about produced artefacts. It can be captured by referring to the ratio of correct decision that are made during release planning as in alfa/beta model. An alfa requirement is defined as a requirement with high quality that it is ideally selected. These are also named as golden grains among all candidates. Beta requirements are defined as the requirements that should be rejected because of its low quality.
+    - The main challenge in MDRE process is to find and select the alfa requirements and reject beta requirements. It is also not easy to know which requirement is alfa/ beta as the cost-benefit tradeoff is very difficult. A cost-value diagram is plotted for alfa and beta requirements. The value and cost of a requirement is not only depend on itself but also on the other requirements. In MDRE process, there is a chance of getting into congestion.
+    - In MDRE data management, mainly contains two ingredients
+      - Requirements state model: It is used for progress tracking of requirements refinement.Requirements are received at any time, but the development of the product is made in releases. There are two modes
+        - Continuous mode: in this requirements are received from all types of submitters and registered by the product manager.
+        - Release mode: The development and requirement activities are carried out in this mode
+        - During this process, from the initial stage to final stage requirements undergoes several transitions they are as follows:
+        - Candidate: The received requirement gets the status of the candidate.
+        - Approved: At regular intervals of time, the requirements with candidate status are reviewed. If the requirements are accepted then it is changed to accepted status.
+        - Specified: When the specification document is available then it gets a status specified.
+        - Discarded: rejected requirements gets the status of discarded.
+        - Planned: The planned release date and the available resources determine the number of days available for the development, testing, and product completion. All the planned requirements are input for design and development.
+        - Developed: when all the activities are implemented successfully then the requirements get the status developed.
+        - Verified: Several testing activities are done for the developed system. If the results obtained are positive then it gets a status of positive.
+        - Released: when all the activities of the product release are completed then the requirement finally gets a status of released.
+      - Requirements repository: relevant attributes and candidate requirements are stored.
+    - Roadmap and release planning are one of the important factors to be considered in the MDRE context. The roadmap is defined as a document that provides a layout of the product releases to come over a time frame of three to five years. A taxonomy was established which creates roadmaps according to their locations. This taxonomy scheme classifies roadmaps broadly into four categories they are:
+      - Science and technology roadmaps
+      - Industry technology roadmaps’
+      - Corporate or product technology roadmaps
+      - Product or portfolio management roadmaps
+    - The roadmap helps in identifying the objects and helps to focus the required resources in achieving those objectives. The roadmap has several potential benefits at both corporate and industry levels. Th major uses of roadmap are 
+      - To plan and coordinate the development activities that are carried out in an industry
+      - Mechanism to help experts forecast technology development in target areas.
+      - Development of consequences about a set of needs and the technologies.
+    - A product roadmap in MDRE context contains four layered structure from strategy making to the development of the software product. At first, the investment plan is calculated based on the revenues and forecast plans of product lines. The investment plan is an input for the management of the product development unit to create a product roadmap. Product managers are responsible in the next layer i.e. release process. It mainly concentrates on the set of requirements for various releases. The set of product requirements are then taken as input for the development process and the results are inserted into the kernel where the software is build. The software builds together with auxiliary materials and manuals is then packaged as a new release.In MDRE context, there are so many challenges observed in the areas like prioritization, management of dependencies and tool support for handling large scale requirements.
+
+
+
        
   - <h5> Exploring factors affecting decision outcome and lead time in large scale requirements engineering</h5>
     - In MDRE process, the product has to be aligned with the targeted market needs to create a profitable software product. In MDRE projects, requirements keep on coming, deciding which requirements to be implemented is far from trivial. Customer needs keep evolving and cause changes to requirements. Analyzing and deciding upon these changes are critical for staying competitive in the market. 
