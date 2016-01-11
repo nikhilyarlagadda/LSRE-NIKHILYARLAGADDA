@@ -28,9 +28,9 @@
       - If the requirements are not specified in the other levels then the additional requirements are specified in the abstraction levels until workup rule R1 and R2 satisfied. A how-to guide is also provided to help how to specify the requirements in the abstract level. 
  - <h5> Article selection and why </h5>
    - The main reason for selecting this article, is because a clear explanation of RAM model is presented, when it is used, why is it used and need for the RAM model. A guide how to implement and connect the requirements to abstract levels is also provided in this article and the description provided about RAM is easy to understand. RAM model contains several steps, each and every step is clearly explained and illustrated with the help of an example. Along with this, the process involved in RAM model is very interesting. After looking into this article, I thought this model would be simple and ease to implement by following the information and guide provided in the article.
- - Implementation plan:
+ - <h5> Implementation plan:</h5>
    - For implementing this model, I have selected the system online book store. Only three requirements are considered related to online book store system. Finally, RAM model is implemented on three requirements by following how-to guide provided in this article. Each and every step provided for RAM model in this article are implemented on these three requirements.
- - Execution and proof of concept:
+ - <h5>Execution and proof of concept:</h5>
    - The RAM model is executed on the selected three requirements. The RAM model contains three steps
    
    - Step 1: Specify 
