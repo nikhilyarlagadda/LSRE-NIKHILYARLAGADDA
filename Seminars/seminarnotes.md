@@ -446,7 +446,31 @@ There are five steps for prioritizing the requirements using cost-value approach
 
 
 
-       
+  - <h5> Are you biting off more than you can chew? A case study on causes and effects of overscoping in large-scale software engineering</h5>
+    - The authors of this paper mainly focused on understanding the concept of overscoping in large-scale, market-driven software development projects and how agile requirements engineering practices may affect this situation. In market-driven requirements engineering, requirements come from internal sources and also from external sources which result in large and continuous flow of requirements. It is difficult for software product managers to manage a large number of new and changing requirements with continuously shifting market needs. This situation leads to increasing in the complexity of product scoping. 
+    - Scope management is a core part of software release management and a key factor in releasing the successful software product to the market. It is not constant for an entire project, it varies throughout project depending upon the constraints like resources, time, and cost. The project scope at some large software companies changed significantly throughout the project life cycle because of overscoping. Agile development processes claim to address several challenges involved in scoping by frequently changing requirements. However, these practices lead to new challenges in achieving consensus on priorities among multiple stakeholders and in creating accurate project plans for an entire project.  
+    - The authors of this paper investigated the scoping of a project in the context of very-large-scale RE and MDRE. They performed a case study to report findings aimed at understanding over scoping in large scale development projects and factors involved in over scoping. Some researchers identified that scope creep was on the main reason for the overscoping. Along with scope creep some of the reasons identified are decision problems in requirements engineering process, RE decision making and examine how non-technical issues affect decision making. Scoping in agile development projects mainly involves three of agile RE practices namely prioritization, constant planning and iterative RE. 
+    - The case company mainly focuses on developing embedded systems for a global market using a product line approach. It includes milestones (MS) for controlling and monitoring the project progress, where project scope was updated and base lined for each milestone. A continuous development model was introduced by the case company to meet the challenges of managing high requirements volatility. The company used two approaches phase-based and agile RE. Some of the agile RE practices were being introduced such as 
+      - Continuous scope and release planning flow
+      - Cross-functional development teams
+      - Gradual and iterative dealing requirements
+      - Integrated RE
+      - User stories 
+      - Acceptance criteria. 
+    - The main aim of this paper is to understand the difference between the scoping processes of phase-based and new agile development process. The case study is carried out in 3 phases. 
+      - Pre-study and hypothesis generation: In this phase, five factors were assumed causes for overscoping and are considered as a hypothesis. They are
+        - Continuous requirements inflow via multiple channels
+        - Overview of software resources availability
+        - Low development teams involvement in early phases
+        - Requirements not agreed with development teams
+        - Detailed requirements specification
+      - An interview study at case company: considering the hypothesis as a starting point and interviews was conducted based on this.
+      - Validation of results via questionnaire: The results obtained from the phase 2 were verified by practitioners of the same company. 
+    - The results obtained from these studies show that along with these five factors of causes another two more causes are identified they are root causes and effects are determined and listed. All these causes are appropriate and each effect, cause and root cause is explained clearly. Along with case study, interviews are also conducted to identify how the addition of agile practices influences the causes of overscoping. The results obtained shows that all the agile practices introduced has a positive impact on reducing the causes and effects of overscoping. The identified causes and effects can be used as a basis for identifying potential issues to address in order to avoid an overscoping situation.
+
+
+      
+
   - <h5> Exploring factors affecting decision outcome and lead time in large scale requirements engineering</h5>
     - In MDRE process, the product has to be aligned with the targeted market needs to create a profitable software product. In MDRE projects, requirements keep on coming, deciding which requirements to be implemented is far from trivial. Customer needs keep evolving and cause changes to requirements. Analyzing and deciding upon these changes are critical for staying competitive in the market. 
     - It is very difficult to select which change requirements should be accepeted. To effectively improve the RE decision-making more effort should be dedicated towards decision-making aspect. It is very important to identify the factors that affect the decision lead time and the decision outcome. Some of the characteristics of change requests that are identified 
