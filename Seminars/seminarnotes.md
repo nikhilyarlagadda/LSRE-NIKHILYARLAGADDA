@@ -525,8 +525,69 @@ There are five steps for prioritizing the requirements using cost-value approach
 
 
   - <h5> Seminar 4</h5>
-
-
-
-
-
+    - <h5>Assessing challenges of continuous integration in the context of software requirements breakdown: a case study</h5>
+      - The complexity of the software development has been increasing in recent few years. Now a days are demanding for the products with high quality and more stable product within short delivery. In order, to meet the challenges posed by the customers, software companies are trying to improve their process.  This can be observed to some extent by using agile development technology because they put a focus on the customer collaboration and loop feedback. Companies using agile strategies are now adopting to the continuous integration in order to achieve the complete benefits offered by this process. Continuous integration is defined as the concept where team integrates their code several times a day and then build and test the software. It is not an easy process for the organizations changing from their respective development process (traditional/agile) to continuous integration.
+      - The authors of this paper mainly concentrated on identifying the challenges of continuous integration, requirements breakdown and how the latter implementation of the continuous integration process. A case study was carried out at Ericsson AB within the serving GPRS support node mobility management entity program. The teams working in this case study uses several branches for integration and development at different quality levels they are 
+        - Work branch: when a new feature is developed.
+        - Latest local version: tests that cover expected changes in functionality
+        - Pre-Test build: full regression tests run in this branch
+        - Latest stable version: complete system tests run on this branch.
+      - During the case study at Ericsson, all the cross-functional teams integrated their codes among these branches according to their need. They identified several challenges during this study related to continuous integration process they are
+      - The challenges that were identified for continuous integration are 
+        - Mindset: mindset plays an important role when transitioning to continuous integration. The challenges that are identified related to mindset are 
+          - Scepticism 
+          - Change old habits
+          - Exposing work intention
+        - Tools & Infrastructure: The tools and infrastructure play an important role during continuous integration. Tools for reviewing code, visualizing regression testing results, running automated test suites, checking in code. Some of the problems that arise at the   time of using this tools and infrastructure are  
+          - Code review
+          - Maturity
+          - Regression feedback time
+          - Test automation
+          - Integration queue.
+        - Testing: Challenges associated with this is due to lack of automated tests along with a stable test framework. Some of the challenges related to testing are 
+          - Unstable test cases
+          - Too many manual tests
+          - Implementation and test dependencies
+          - Preserving quality
+        - Domain applicability: It is defined as the suitability of continuous integration at the organization. The challenges that are identified because of domain applicability are
+          - Process suitability
+          - Product complexity
+        - Understanding: Teams and management might interpret the concept of continuous integration differently. As a result, some challenges are being identified as follows:
+          - Unclear goals
+          - Increased pressure
+          - Different interpretations
+          - Bottom-up approach
+        - Code dependencies: Development was carried out by several developers instead of one, because of diving work into several integrations. This shows the importance of considering code dependencies and how it effects the integration process and challenges are as follows:
+          - Integration coordination
+          - Dead code
+        - Software requirements: When adopting continuous requirements they are treated as a challenge. The requirements need to be broken in order to allow more frequent integrations. How the software requirements affect the integration process is demonstrated by the challenges as mentioned:
+          - Requirements breakdown
+          - Deliver feature growth
+          - Integration of big impact changes
+      - The challenges that are identified because of requirements breakdown are:
+        - Requirements abstraction: It is very difficult when the requirements are too big, ambiguous or too low. The challenges that are identified related to the requirements abstraction are:
+          - Ambiguous requirements
+          - Large requirements
+          - Low-level requirements
+          - Architectural design
+          - Product complexity
+        - Alignment of requirements and tests: when integrating requirements into the main line, they need to be associated with tests and aligned properly. The challenges identified related to alignment of requirements and test are 
+          - Implementation and test case dependencies
+        - Customer value: It is a very process for breaking down requirements into small components by considered the market and customer value. The challenges identified in this area are:
+          - Access to customer
+          - Delivering the customer value
+        - Guiding principle: Lack of guidance and not having a clear idea on the unified process are identified as the possible reasons for this ambiguity. The challenges associated with this are due to
+          - No unified process
+          - Ongoing responsibility shift
+          - Unfit process
+          - Lack of guidance
+      - The challenges that are identified because of requirements breakdown during continuous integration
+        - Necessity of software requirements breakdown: In order to adopt an efficient continuous integration process with a beneficial integration frequency, there is a need for the breakdown of software requirements. The challenges that are identified because of this are 
+          - Big impact requirements
+          - Maintenance versus feature development
+        - Implications of software requirements breakdown: The challenges identified relate to this area as follows:
+          - Implementation dependencies
+          - Integration scope
+          - Test dependencies
+          - On Demand Software Delivery
+      - Role of software requirements breakdown plays an important role when adopting continuous integration, especially with regards to an increased integration frequency.
