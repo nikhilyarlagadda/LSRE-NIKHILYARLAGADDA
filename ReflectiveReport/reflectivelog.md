@@ -138,6 +138,11 @@
         -  Identifying the list of quality requirements that are more difficult and expensive to improve when the one quality requirement is improved.
       -  An extra step is Identifying cost dependencies were included in this paper. Dependencies have an impact on the estimated cost of another quality requirement. The cost to improve the quality level for one QR may imply an improved level of quality for other QR. This may lead to a change of other QR cost barriers and which QR to select for the coming release.
   - <h5>Article selection and why</h5>
+    - The main reason for selecting this article, is because it is easy to understand. The process carried out in QUPER model is explained clearly. In this article, the steps involved in QUPER model is given clearly with an example. After looking into this article, I thought this model would be interesting and ease to implement by following the steps provided.
+ - <h5>Implementation plan:</h5>
+For implementing this model, I have selected the system online book store. Only two requirements are considered related to online book store system. Finally, QUPER model is implemented on two requirements. Each and every step provided for QUPER model in this article are implemented on these two
+ requirements.
+
   - <h5>Execution and proof of concept</h5>
     - QUPER model is executed in 7 steps as follows:
       - Identify candidate quality requirements:
