@@ -115,7 +115,10 @@
       - Abstract level: Function level
   - The requirement 3 is an original requirement and it is in the component level. It has two requirements in the abstract levels. So I have created one new requirement 9 and placed them in the function level. The requirements 1 and 4 are already existing requirements, I have lined them to this requirement without creating a new requirement.
   - <h5>Lessons learned</h5> 
-    - It is easy to implement and work out the process. The requirements can be handled easily and can also break the complex requirements from higher level to lower level by using this model   The problems that, I have faced during the implementation was with placing the requirement into suitable level. 
+    - It is easy to implement and work out the process. The requirements can be handled easily and can also break the complex requirements from higher level to lower level by using this model. It will be very useful in the context of LSRE and MDRE process.   The problems that, I have faced during the implementation was with placing the requirement into suitable level. 
+  - <h5> Reflections</h5> 
+    - The reflectionns are compared with one article releated to the RAM model. The observations are almost similar and article also address some other issues. THis model is suitable for LSRE engineering. 
+
     
   
 - <h5>Article 2: QUPER</h5>
@@ -202,6 +205,15 @@ For implementing this model, I have selected the system online book store. Only 
           - Among a total of 4 requirements are easier and cheaper to implement  
           - Among a total of 2 requirements are easier and cheaper to implement  
       - After this an expert will identify to implement which dependencies either the easier or harder based on the estimated values and effort.
+  - <h5>Lessons learned</h5>
+   - The quality attributes play an importnat role in the competiton. Along with the functional attributes, quality attributes should also considerd. This model would be very helpful for the organizations as it easy to implement. It provides a roadmap with a set of releases. It enanbles the product the reach from current position to different level by overcoming the compitetors.
+  - <h5> reflections</h5> 
+    - In order to compare my observations with the observations of other articles, I have selected an article and compared my observations with it. The article I have selected is
+Berntsson Svensson & Olsson “Introducing support for release planning of quality requirements –an industrial evaluation of the QUPER model”
+The authors of this article presented an industrial evaluation model in a company and drawn the following conclusions from it.
+With the QUPER model we will have an understanding of what is good enough quality in the market and how good our competitors are. They have faced challenge regarding the selection of performance requirements. And they have got a clear idea about how quality requirements are handled practically by overcoming various challenges.
+These observations are closely related to my observations and as I have applied the model only for 2 quality requirements, my observations would be more abstract.
+
 
 
 
