@@ -27,7 +27,8 @@ what is strategic release planning?
   - Satisfy the involved stakeholders.
   - Feasible with available resources
   - Dependencies between the features should be reflected
-  - Maximum benefit values by delivering the best features in a right sequences of deliveries
+  - Maximum benefit values by delivering the best features in a right sequences of deliveries.
+ - Roadmap consists of a set of releases. 
 
 
 References:
