@@ -22,6 +22,14 @@ According to author[1] the goal of the market driven process (MDRE) is to delive
 •	Large-Scale Requirements Engineering		~1,000	   requirements
 •	Very Large-Scale Requirements Engineering	~10,000  requirements
 
+what is strategic release planning?
+- Release planning address the decisions related to selecting and assigning features to create a sequence of consecutive product releases that satisfies important technical, resource, budget and risk factors. A good release plan should
+  - Satisfy the involved stakeholders.
+  - Feasible with available resources
+  - Dependencies between the features should be reflected
+  - Maximum benefit values by delivering the best features in a right sequences of deliveries
+
+
 References:
 [1]	K. Wnuk, “Understanding and Supporting Large-scale Requirements Management,” 2010.
 [2]	S. Konrad and M. Gall, “Requirements Engineering in the Development of Large-Scale Systems.”
@@ -44,14 +52,16 @@ References:
    - Go
    - Integrity
  - what is technical product management?
-   - In this management, technical product manager role is very important. Technical product manager is responsible for defining market requirements and packaging the features into product releases. The main responsibilities of the technical product manager are  
+   - In this project management, concentrates on initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria. A product may contain several factors such as technical,quality. The process that deals with the technicality of a product is called technical project management. technical product manager role is very important. Technical product manager is responsible for defining market requirements and packaging the features into product releases. The main responsibilities of the technical product manager are  
      - Conducting technology assessments
      - Analyzing the competitive landscape
      - Maintaining the product portfolio roadmap
      - Monitoring and incorporate industry innovations
      - Writing product requirements and use scenarios
      - Maintaining a status dashboard for all portfolio products
-
+ - what is road mapping?
+   - It is a document which provides a layout of the product releases to come over between a time frame
+   - In  product roadmap in MDRE context contains four layered structure from strategy making to the development of the software product. At first, the investment plan is calculated based on the revenues and forecast plans of product lines. The investment plan is an input for the management of the product development unit to create a product roadmap. Product managers are responsible in the next layer i.e. release process. It mainly concentrates on the set of requirements for various releases. The set of product requirements are then taken as input for the development process and the results are inserted into the kernel where the software is build. The software builds together with auxiliary materials and manuals is then packaged as a new release.
 
  - <h5>References </h5>
     - [1]	T. Gorschek and A. M. Davis, “Requirements engineering: In search of the dependent variables,” Inf. Softw. Technol., vol. 50, no. 1–2, pp. 67–75, 2008.
